@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IDX 526 - Second languages in Chicago</title>
+	
+	<!-- Mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Meta Info-->
+	<meta name="author" content="Hsin-Cheng Lin">
+    <meta name="description" content="">
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="">
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Optional Bootstrap Theme -->
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<!-- Makes Life Easier -->
+	<link href="css/snippet.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet">
+	
+	<!-- Google Font -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->	
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+        	<h1>Second Languages in Chicago</h1>
+       		<p>Estimation of languages spoken in Chicago by Census data, 2007 to 2011.</p>
+			<a href="https://data.cityofchicago.org/Health-Human-Services/Census-Data-Languages-spoken-in-Chicago-2007-2011/a2fk-ec6q">Original source</a>
+      	</div>
+		
+		<div class="row">
+			<div class="col-md-12">
+				<h4>Most Spoken Non-English Languages in Chicago</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<canvas id="mostLangBarChart" class="chart" width="500" height="400"></canvas>
+			</div>
+			<div class="col-md-6">
+				<canvas id="mostLangPieChart" class="chart" width="500" height="350"></canvas>
+				<div class="langDoughnut">
+					<h2>414,103</h2>
+					<p>Non-English Language Speaking Population</p>										
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<ul class="legend">
+							<li><div class="legend-block one"></div>Spanish (69.6%)</li>
+							<li><div class="legend-block two"></div>Polish (8.1%)</li>
+							<li><div class="legend-block three"></div>Chinese (5.5%)</li>
+							<li><div class="legend-block four"></div>Tagalog (1.5%)</li>
+							<li><div class="legend-block five"></div>Other (15.4%)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<hr>
+		
+		<div class="row">
+			<div class="col-md-12">
+				<h4>% of Non-English Speaking Population by Neighborhood (Top 20)</h4>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-12">
+				<canvas id="speakersChart" class="chart" width="1000" height="400"></canvas>
+			</div>
+		</div>
+		
+		<hr>
+		
+		<div class="row">
+			<div class="col-md-6">
+				<h4>Language Diversity: The Top and Bottom 5 Neighborhoods</h4>
+				<canvas id="diversityChart" class="chart" width="600" height="400"></canvas>
+			</div>
+			<!--<div class="col-md-6">
+				<h4>Area Profile</h4>
+				<canvas id="AreaProfile" class="chart" width="400" height="400"></canvas>
+				<div class="row">
+					<div class="col-xs-12">
+						<form>
+							<select>
+								<option>Rogers Park</option>
+								<option>West Ridge</option>
+								<option>Uptown</option>
+								<option>Lincoln Square</option>
+								<option>North Center</option>
+								<option>Lake View</option>
+								<option>Lincoln Park</option>
+								<option>Near North Side</option>
+								<option>Edison Park</option>
+								<option>Norwood Park</option>
+								<option>Jefferson Park</option>
+								<option>Forest Glen</option>
+								<option>North Park</option>
+								<option>Albany Park</option>
+								<option>Portage Park</option>
+								<option>Irving Park</option>
+								<option>Dunning</option>
+								<option>Montclaire</option>
+								<option>Belmont Cragin</option>
+								<option>Hermosa</option>
+								<option>Avondale</option>
+								<option>Logan Square</option>
+								<option>Humboldt Park</option>
+								<option>West Town</option>
+								<option>Austin</option>
+								<option>West Garfield Park</option>
+								<option>East Garfield Park</option>
+								<option>Near West Side</option>
+								<option>North Lawndale</option>
+								<option>South Lawndale</option>
+								<option>Lower West Side</option>
+								<option selected>Loop</option>
+								<option>Near South Side</option>
+								<option>Armour Square</option>
+								<option>Douglas</option>
+								<option>Oakland</option>
+								<option>Fuller Park</option>
+								<option>Grand Boulevard</option>
+								<option>Kenwood</option>
+								<option>Washington Park</option>
+								<option>Hyde Park</option>
+								<option>Woodlawn</option>
+								<option>South Shore</option>
+								<option>Chatham</option>
+								<option>Avalon Park</option>
+								<option>South Chicago</option>
+								<option>Burnside</option>
+								<option>Calumet Heights</option>
+								<option>Roseland</option>
+								<option>Pullman</option>
+								<option>South Deering</option>
+								<option>East Side</option>
+								<option>West Pullman</option>
+								<option>Riverdale</option>
+								<option>Hegewisch</option>
+								<option>Garfield Ridge</option>
+								<option>Archer Heights</option>
+								<option>Brighton Park</option>
+								<option>McKinley Park</option>
+								<option>Bridgeport</option>
+								<option>New City</option>
+								<option>West Elsdon</option>
+								<option>Gage Park</option>
+								<option>Clearing</option>
+								<option>West Lawn</option>
+								<option>Chicago Lawn</option>
+								<option>West Englewood</option>
+								<option>Englewood</option>
+								<option>Greater Grand Crossing</option>
+								<option>Ashburn</option>
+								<option>Auburn Gresham</option>
+								<option>Beverly</option>
+								<option>Washington Heights</option>
+								<option>Mount Greenwood</option>
+								<option>Morgan Park</option>
+								<option>O'Hare</option>
+								<option>Edgewater</option>
+							</select>
+						</form>
+						<ul class="legend">
+							<li><div class="legend-block six"></div>Chicago</li>
+							<li><div class="legend-block seven"></div>Loop</li>
+						</ul>
+					</div>
+				</div>
+			</div>-->
+		</div>
+		
+		<hr>
+		
+		<!--<div class="row">
+			<div class="col-md-12">
+				<h4>Distribution of Language</h4>
+				<canvas id="distributionChart" class="chart" width="500" height="400"></canvas>
+			</div>
+		</div>-->
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<!-- Bootstrap js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Google Map API
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDORdzwGBqnepkCexSZbD8AdoIZ2GkDXzo&sensor=false&libraries=visualization"></script>-->
+	<!-- Chart.js -->
+	<script src="js/Chart.min.js"></script>
+	<!-- Underscore.js -->
+	<script src="js/underscore-min.js"></script>
+	<!-- Custom JavaScript -->
+	<script src="js/script.js"></script>
+</body>
+</html>

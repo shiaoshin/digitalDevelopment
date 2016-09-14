@@ -1,0 +1,50 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+/*Language*/
+.langDoughnut {
+	position: absolute;
+	width: 180px;
+	height: 100px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin: -80px 0 0 -115px;
+}
+.langDoughnut p{
+	font-size: 120%;
+}
+.legend {
+	width: 75%;
+	height: 50px;
+	list-style: none;
+	margin: 0 auto;
+}
+.legend li{
+	display: inline-block;
+	margin-right: 10px;
+	color:#666;
+}
+.legend-block{
+	width:10px;
+	height: 5px;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 3px;
+}
+.legend-block.one{background-color:hsl(107, 89%,24%);}
+.legend-block.two{background-color:hsl(107, 89%,37%);}
+.legend-block.three{background-color:hsl(107, 89%,50%);}
+.legend-block.four{background-color:hsl(107, 89%,63%);}
+.legend-block.five{background-color:hsl(107, 89%,88%);}
+.legend-block.six{background-color:rgb(210,210,210);}
+.legend-block.seven{background-color:hsl(107,70%,66%);}
+
+form {
+	position: absolute;
+	top: -75%;
+	left: 22%;
+	margin: 0 auto;
+}

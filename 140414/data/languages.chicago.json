@@ -1,0 +1,3011 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "a2fk-ec6q",
+      "name" : "Census Data - Languages spoken in Chicago, 2007 ¡V 2011",
+      "attribution" : "U.S. Census Bureau",
+      "attributionLink" : "http://factfinder2.census.gov/",
+      "averageRating" : 0,
+      "category" : "Health & Human Services",
+      "createdAt" : 1325778035,
+      "description" : "This dataset contains estimates of the number of residents aged 5 years or older in Chicago who ¡§speak English less than very well,¡¨ by the non-English language spoken at home and community area of residence, for the years 2007 ¡V 2011.  See the full dataset description for more information at https://data.cityofchicago.org/api/assets/9B885EEC-A2C6-496F-90E6-6F13522A19B6.",
+      "displayType" : "table",
+      "downloadCount" : 384,
+      "indexUpdatedAt" : 1394949695,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 3825726,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1370370261,
+      "publicationGroup" : 269740,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1369924922,
+      "rowsUpdatedBy" : "is6y-5c5n",
+      "tableId" : 889222,
+      "totalTimesRated" : 0,
+      "viewCount" : 4878,
+      "viewLastModified" : 1370370261,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 69981002,
+        "name" : "Community Area",
+        "dataTypeName" : "number",
+        "fieldName" : "community_area",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907599,
+        "width" : 130,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "3003",
+          "null" : 0,
+          "average" : "38.5",
+          "largest" : "77",
+          "top" : [ {
+            "count" : 20,
+            "item" : "42"
+          }, {
+            "count" : 19,
+            "item" : "43"
+          }, {
+            "count" : 18,
+            "item" : "44"
+          }, {
+            "count" : 17,
+            "item" : "45"
+          }, {
+            "count" : 16,
+            "item" : "46"
+          }, {
+            "count" : 15,
+            "item" : "47"
+          }, {
+            "count" : 14,
+            "item" : "48"
+          }, {
+            "count" : 13,
+            "item" : "49"
+          }, {
+            "count" : 12,
+            "item" : "50"
+          }, {
+            "count" : 11,
+            "item" : "51"
+          }, {
+            "count" : 10,
+            "item" : "52"
+          }, {
+            "count" : 9,
+            "item" : "53"
+          }, {
+            "count" : 8,
+            "item" : "54"
+          }, {
+            "count" : 7,
+            "item" : "55"
+          }, {
+            "count" : 6,
+            "item" : "56"
+          }, {
+            "count" : 5,
+            "item" : "57"
+          }, {
+            "count" : 4,
+            "item" : "58"
+          }, {
+            "count" : 3,
+            "item" : "59"
+          }, {
+            "count" : 2,
+            "item" : "60"
+          }, {
+            "count" : 1,
+            "item" : "61"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981003,
+        "name" : "Community Area Name",
+        "dataTypeName" : "text",
+        "fieldName" : "community_area_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1907600,
+        "width" : 163,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "Albany Park",
+          "null" : 0,
+          "largest" : "Woodlawn",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Woodlawn"
+          }, {
+            "count" : 19,
+            "item" : "South Shore"
+          }, {
+            "count" : 18,
+            "item" : "Chatham"
+          }, {
+            "count" : 17,
+            "item" : "Avalon Park"
+          }, {
+            "count" : 16,
+            "item" : "South Chicago"
+          }, {
+            "count" : 15,
+            "item" : "Burnside"
+          }, {
+            "count" : 14,
+            "item" : "Calumet Heights"
+          }, {
+            "count" : 13,
+            "item" : "Roseland"
+          }, {
+            "count" : 12,
+            "item" : "Pullman"
+          }, {
+            "count" : 11,
+            "item" : "South Deering"
+          }, {
+            "count" : 10,
+            "item" : "East Side"
+          }, {
+            "count" : 9,
+            "item" : "West Pullman"
+          }, {
+            "count" : 8,
+            "item" : "Riverdale"
+          }, {
+            "count" : 7,
+            "item" : "Hegewisch"
+          }, {
+            "count" : 6,
+            "item" : "Garfield Ridge"
+          }, {
+            "count" : 5,
+            "item" : "Archer Heights"
+          }, {
+            "count" : 4,
+            "item" : "Brighton Park"
+          }, {
+            "count" : 3,
+            "item" : "McKinley Park"
+          }, {
+            "count" : 2,
+            "item" : "Bridgeport"
+          }, {
+            "count" : 1,
+            "item" : "New City"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981004,
+        "name" : "PREDOMINANT NON-ENGLISH LANGUAGE (%)",
+        "dataTypeName" : "text",
+        "fieldName" : "predominant_non_english_language_",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1907601,
+        "width" : 324,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "AFRICAN LANGUAGES (0.6%)",
+          "null" : 0,
+          "largest" : "SPANISH (9.8%)",
+          "top" : [ {
+            "count" : 20,
+            "item" : "SPANISH (2.1%)"
+          }, {
+            "count" : 19,
+            "item" : "SPANISH (1.1%)"
+          }, {
+            "count" : 18,
+            "item" : "SPANISH (0.1%)"
+          }, {
+            "count" : 17,
+            "item" : "SPANISH (0.8%)"
+          }, {
+            "count" : 16,
+            "item" : "AFRICAN LANGUAGES (0.6%)"
+          }, {
+            "count" : 15,
+            "item" : "SPANISH (0.2%)"
+          }, {
+            "count" : 14,
+            "item" : "SPANISH (5%)"
+          }, {
+            "count" : 13,
+            "item" : "SPANISH (11.8%)"
+          }, {
+            "count" : 12,
+            "item" : "SPANISH (28.2%)"
+          }, {
+            "count" : 11,
+            "item" : "SPANISH (2%)"
+          }, {
+            "count" : 10,
+            "item" : "SPANISH (8.4%)"
+          }, {
+            "count" : 9,
+            "item" : "SPANISH (9.2%)"
+          }, {
+            "count" : 8,
+            "item" : "SPANISH (29.7%)"
+          }, {
+            "count" : 7,
+            "item" : "SPANISH (40.2%)"
+          }, {
+            "count" : 6,
+            "item" : "SPANISH (23%)"
+          }, {
+            "count" : 5,
+            "item" : "CHINESE (21.4%)"
+          }, {
+            "count" : 4,
+            "item" : "SPANISH (27.4%)"
+          }, {
+            "count" : 3,
+            "item" : "SPANISH (32.2%)"
+          }, {
+            "count" : 2,
+            "item" : "SPANISH (45.1%)"
+          }, {
+            "count" : 1,
+            "item" : "SPANISH (12.9%)"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981005,
+        "name" : "AFRICAN LANGUAGES",
+        "dataTypeName" : "number",
+        "fieldName" : "african_languages",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907602,
+        "width" : 171,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "9324",
+          "null" : 0,
+          "average" : "119.5384615384615",
+          "largest" : "4662",
+          "top" : [ {
+            "count" : 20,
+            "item" : "269"
+          }, {
+            "count" : 19,
+            "item" : "274"
+          }, {
+            "count" : 18,
+            "item" : "722"
+          }, {
+            "count" : 17,
+            "item" : "171"
+          }, {
+            "count" : 16,
+            "item" : "0"
+          }, {
+            "count" : 15,
+            "item" : "329"
+          }, {
+            "count" : 14,
+            "item" : "44"
+          }, {
+            "count" : 13,
+            "item" : "63"
+          }, {
+            "count" : 12,
+            "item" : "56"
+          }, {
+            "count" : 11,
+            "item" : "153"
+          }, {
+            "count" : 10,
+            "item" : "348"
+          }, {
+            "count" : 9,
+            "item" : "31"
+          }, {
+            "count" : 8,
+            "item" : "15"
+          }, {
+            "count" : 7,
+            "item" : "27"
+          }, {
+            "count" : 6,
+            "item" : "17"
+          }, {
+            "count" : 5,
+            "item" : "12"
+          }, {
+            "count" : 4,
+            "item" : "3"
+          }, {
+            "count" : 3,
+            "item" : "83"
+          }, {
+            "count" : 2,
+            "item" : "30"
+          }, {
+            "count" : 1,
+            "item" : "35"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981006,
+        "name" : "ARABIC",
+        "dataTypeName" : "number",
+        "fieldName" : "arabic",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907603,
+        "width" : 94,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "11638",
+          "null" : 0,
+          "average" : "149.2051282051282",
+          "largest" : "5819",
+          "top" : [ {
+            "count" : 20,
+            "item" : "142"
+          }, {
+            "count" : 19,
+            "item" : "1688"
+          }, {
+            "count" : 18,
+            "item" : "72"
+          }, {
+            "count" : 17,
+            "item" : "48"
+          }, {
+            "count" : 16,
+            "item" : "0"
+          }, {
+            "count" : 15,
+            "item" : "99"
+          }, {
+            "count" : 14,
+            "item" : "9"
+          }, {
+            "count" : 13,
+            "item" : "42"
+          }, {
+            "count" : 12,
+            "item" : "215"
+          }, {
+            "count" : 11,
+            "item" : "117"
+          }, {
+            "count" : 10,
+            "item" : "201"
+          }, {
+            "count" : 9,
+            "item" : "921"
+          }, {
+            "count" : 8,
+            "item" : "297"
+          }, {
+            "count" : 7,
+            "item" : "414"
+          }, {
+            "count" : 6,
+            "item" : "67"
+          }, {
+            "count" : 5,
+            "item" : "11"
+          }, {
+            "count" : 4,
+            "item" : "175"
+          }, {
+            "count" : 3,
+            "item" : "30"
+          }, {
+            "count" : 2,
+            "item" : "21"
+          }, {
+            "count" : 1,
+            "item" : "41"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981007,
+        "name" : "ARMENIAN",
+        "dataTypeName" : "number",
+        "fieldName" : "armenian",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907604,
+        "width" : 104,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "342",
+          "null" : 0,
+          "average" : "4.384615384615385",
+          "largest" : "171",
+          "top" : [ {
+            "count" : 20,
+            "item" : "53"
+          }, {
+            "count" : 19,
+            "item" : "0"
+          }, {
+            "count" : 18,
+            "item" : "27"
+          }, {
+            "count" : 17,
+            "item" : "11"
+          }, {
+            "count" : 16,
+            "item" : "14"
+          }, {
+            "count" : 15,
+            "item" : "8"
+          }, {
+            "count" : 14,
+            "item" : "31"
+          }, {
+            "count" : 13,
+            "item" : "171"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981008,
+        "name" : "CAMBODIAN (MON-KHMER)",
+        "dataTypeName" : "number",
+        "fieldName" : "cambodian_mon_khmer_",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907605,
+        "width" : 207,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "1210",
+          "null" : 0,
+          "average" : "15.51282051282051",
+          "largest" : "605",
+          "top" : [ {
+            "count" : 20,
+            "item" : "17"
+          }, {
+            "count" : 19,
+            "item" : "0"
+          }, {
+            "count" : 18,
+            "item" : "12"
+          }, {
+            "count" : 17,
+            "item" : "24"
+          }, {
+            "count" : 16,
+            "item" : "26"
+          }, {
+            "count" : 15,
+            "item" : "44"
+          }, {
+            "count" : 14,
+            "item" : "125"
+          }, {
+            "count" : 13,
+            "item" : "204"
+          }, {
+            "count" : 12,
+            "item" : "31"
+          }, {
+            "count" : 11,
+            "item" : "93"
+          }, {
+            "count" : 10,
+            "item" : "16"
+          }, {
+            "count" : 9,
+            "item" : "13"
+          }, {
+            "count" : 8,
+            "item" : "605"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981009,
+        "name" : "CHINESE",
+        "dataTypeName" : "number",
+        "fieldName" : "chinese",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907606,
+        "width" : 96,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "45348",
+          "null" : 0,
+          "average" : "581.3846153846154",
+          "largest" : "22674",
+          "top" : [ {
+            "count" : 20,
+            "item" : "19"
+          }, {
+            "count" : 19,
+            "item" : "0"
+          }, {
+            "count" : 18,
+            "item" : "20"
+          }, {
+            "count" : 17,
+            "item" : "87"
+          }, {
+            "count" : 16,
+            "item" : "11"
+          }, {
+            "count" : 15,
+            "item" : "18"
+          }, {
+            "count" : 14,
+            "item" : "16"
+          }, {
+            "count" : 13,
+            "item" : "22674"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981010,
+        "name" : "CREOLE",
+        "dataTypeName" : "number",
+        "fieldName" : "creole",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907607,
+        "width" : 95,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "1424",
+          "null" : 0,
+          "average" : "18.25641025641026",
+          "largest" : "712",
+          "top" : [ {
+            "count" : 20,
+            "item" : "254"
+          }, {
+            "count" : 19,
+            "item" : "70"
+          }, {
+            "count" : 18,
+            "item" : "0"
+          }, {
+            "count" : 17,
+            "item" : "13"
+          }, {
+            "count" : 16,
+            "item" : "25"
+          }, {
+            "count" : 15,
+            "item" : "8"
+          }, {
+            "count" : 14,
+            "item" : "10"
+          }, {
+            "count" : 13,
+            "item" : "3"
+          }, {
+            "count" : 12,
+            "item" : "22"
+          }, {
+            "count" : 11,
+            "item" : "207"
+          }, {
+            "count" : 10,
+            "item" : "37"
+          }, {
+            "count" : 9,
+            "item" : "44"
+          }, {
+            "count" : 8,
+            "item" : "19"
+          }, {
+            "count" : 7,
+            "item" : "712"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981011,
+        "name" : "FRENCH",
+        "dataTypeName" : "number",
+        "fieldName" : "french",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907608,
+        "width" : 91,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "4698",
+          "null" : 0,
+          "average" : "60.23076923076923",
+          "largest" : "2349",
+          "top" : [ {
+            "count" : 20,
+            "item" : "159"
+          }, {
+            "count" : 19,
+            "item" : "160"
+          }, {
+            "count" : 18,
+            "item" : "161"
+          }, {
+            "count" : 17,
+            "item" : "31"
+          }, {
+            "count" : 16,
+            "item" : "29"
+          }, {
+            "count" : 15,
+            "item" : "106"
+          }, {
+            "count" : 14,
+            "item" : "158"
+          }, {
+            "count" : 13,
+            "item" : "133"
+          }, {
+            "count" : 12,
+            "item" : "18"
+          }, {
+            "count" : 11,
+            "item" : "13"
+          }, {
+            "count" : 10,
+            "item" : "24"
+          }, {
+            "count" : 9,
+            "item" : "0"
+          }, {
+            "count" : 8,
+            "item" : "84"
+          }, {
+            "count" : 7,
+            "item" : "22"
+          }, {
+            "count" : 6,
+            "item" : "74"
+          }, {
+            "count" : 5,
+            "item" : "7"
+          }, {
+            "count" : 4,
+            "item" : "14"
+          }, {
+            "count" : 3,
+            "item" : "38"
+          }, {
+            "count" : 2,
+            "item" : "26"
+          }, {
+            "count" : 1,
+            "item" : "32"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981012,
+        "name" : "GERMAN",
+        "dataTypeName" : "number",
+        "fieldName" : "german",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907609,
+        "width" : 98,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "2964",
+          "null" : 0,
+          "average" : "38",
+          "largest" : "1482",
+          "top" : [ {
+            "count" : 20,
+            "item" : "23"
+          }, {
+            "count" : 19,
+            "item" : "14"
+          }, {
+            "count" : 18,
+            "item" : "33"
+          }, {
+            "count" : 17,
+            "item" : "45"
+          }, {
+            "count" : 16,
+            "item" : "225"
+          }, {
+            "count" : 15,
+            "item" : "164"
+          }, {
+            "count" : 14,
+            "item" : "42"
+          }, {
+            "count" : 13,
+            "item" : "76"
+          }, {
+            "count" : 12,
+            "item" : "18"
+          }, {
+            "count" : 11,
+            "item" : "0"
+          }, {
+            "count" : 10,
+            "item" : "59"
+          }, {
+            "count" : 9,
+            "item" : "46"
+          }, {
+            "count" : 8,
+            "item" : "22"
+          }, {
+            "count" : 7,
+            "item" : "79"
+          }, {
+            "count" : 6,
+            "item" : "58"
+          }, {
+            "count" : 5,
+            "item" : "10"
+          }, {
+            "count" : 4,
+            "item" : "40"
+          }, {
+            "count" : 3,
+            "item" : "19"
+          }, {
+            "count" : 2,
+            "item" : "8"
+          }, {
+            "count" : 1,
+            "item" : "37"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981013,
+        "name" : "GREEK",
+        "dataTypeName" : "number",
+        "fieldName" : "greek",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907610,
+        "width" : 82,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "3922",
+          "null" : 0,
+          "average" : "50.28205128205128",
+          "largest" : "1961",
+          "top" : [ {
+            "count" : 20,
+            "item" : "4"
+          }, {
+            "count" : 19,
+            "item" : "272"
+          }, {
+            "count" : 18,
+            "item" : "44"
+          }, {
+            "count" : 17,
+            "item" : "431"
+          }, {
+            "count" : 16,
+            "item" : "0"
+          }, {
+            "count" : 15,
+            "item" : "34"
+          }, {
+            "count" : 14,
+            "item" : "41"
+          }, {
+            "count" : 13,
+            "item" : "26"
+          }, {
+            "count" : 12,
+            "item" : "8"
+          }, {
+            "count" : 11,
+            "item" : "91"
+          }, {
+            "count" : 10,
+            "item" : "85"
+          }, {
+            "count" : 9,
+            "item" : "205"
+          }, {
+            "count" : 8,
+            "item" : "92"
+          }, {
+            "count" : 7,
+            "item" : "31"
+          }, {
+            "count" : 6,
+            "item" : "108"
+          }, {
+            "count" : 5,
+            "item" : "19"
+          }, {
+            "count" : 4,
+            "item" : "90"
+          }, {
+            "count" : 3,
+            "item" : "37"
+          }, {
+            "count" : 2,
+            "item" : "57"
+          }, {
+            "count" : 1,
+            "item" : "14"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981014,
+        "name" : "GUJARATI",
+        "dataTypeName" : "number",
+        "fieldName" : "gujarati",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907611,
+        "width" : 99,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "3312",
+          "null" : 0,
+          "average" : "42.46153846153846",
+          "largest" : "1656",
+          "top" : [ {
+            "count" : 20,
+            "item" : "89"
+          }, {
+            "count" : 19,
+            "item" : "596"
+          }, {
+            "count" : 18,
+            "item" : "0"
+          }, {
+            "count" : 17,
+            "item" : "46"
+          }, {
+            "count" : 16,
+            "item" : "14"
+          }, {
+            "count" : 15,
+            "item" : "173"
+          }, {
+            "count" : 14,
+            "item" : "223"
+          }, {
+            "count" : 13,
+            "item" : "284"
+          }, {
+            "count" : 12,
+            "item" : "44"
+          }, {
+            "count" : 11,
+            "item" : "19"
+          }, {
+            "count" : 10,
+            "item" : "60"
+          }, {
+            "count" : 9,
+            "item" : "32"
+          }, {
+            "count" : 8,
+            "item" : "8"
+          }, {
+            "count" : 7,
+            "item" : "49"
+          }, {
+            "count" : 6,
+            "item" : "1656"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981015,
+        "name" : "HEBREW",
+        "dataTypeName" : "number",
+        "fieldName" : "hebrew",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907612,
+        "width" : 91,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "526",
+          "null" : 0,
+          "average" : "6.743589743589744",
+          "largest" : "263",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "109"
+          }, {
+            "count" : 18,
+            "item" : "9"
+          }, {
+            "count" : 17,
+            "item" : "41"
+          }, {
+            "count" : 16,
+            "item" : "13"
+          }, {
+            "count" : 15,
+            "item" : "11"
+          }, {
+            "count" : 14,
+            "item" : "5"
+          }, {
+            "count" : 13,
+            "item" : "12"
+          }, {
+            "count" : 12,
+            "item" : "22"
+          }, {
+            "count" : 11,
+            "item" : "15"
+          }, {
+            "count" : 10,
+            "item" : "263"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981016,
+        "name" : "HINDI",
+        "dataTypeName" : "number",
+        "fieldName" : "hindi",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907613,
+        "width" : 76,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "4068",
+          "null" : 0,
+          "average" : "52.15384615384615",
+          "largest" : "2034",
+          "top" : [ {
+            "count" : 20,
+            "item" : "70"
+          }, {
+            "count" : 19,
+            "item" : "907"
+          }, {
+            "count" : 18,
+            "item" : "71"
+          }, {
+            "count" : 17,
+            "item" : "145"
+          }, {
+            "count" : 16,
+            "item" : "0"
+          }, {
+            "count" : 15,
+            "item" : "8"
+          }, {
+            "count" : 14,
+            "item" : "104"
+          }, {
+            "count" : 13,
+            "item" : "46"
+          }, {
+            "count" : 12,
+            "item" : "13"
+          }, {
+            "count" : 11,
+            "item" : "158"
+          }, {
+            "count" : 10,
+            "item" : "15"
+          }, {
+            "count" : 9,
+            "item" : "31"
+          }, {
+            "count" : 8,
+            "item" : "10"
+          }, {
+            "count" : 7,
+            "item" : "29"
+          }, {
+            "count" : 6,
+            "item" : "16"
+          }, {
+            "count" : 5,
+            "item" : "1"
+          }, {
+            "count" : 4,
+            "item" : "49"
+          }, {
+            "count" : 3,
+            "item" : "94"
+          }, {
+            "count" : 2,
+            "item" : "11"
+          }, {
+            "count" : 1,
+            "item" : "24"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981017,
+        "name" : "HMONG",
+        "dataTypeName" : "number",
+        "fieldName" : "hmong",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907614,
+        "width" : 92,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "0",
+          "null" : 0,
+          "average" : "0",
+          "largest" : "0",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981018,
+        "name" : "HUNGARIAN",
+        "dataTypeName" : "number",
+        "fieldName" : "hungarian",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907615,
+        "width" : 117,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "428",
+          "null" : 0,
+          "average" : "5.487179487179487",
+          "largest" : "214",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "49"
+          }, {
+            "count" : 18,
+            "item" : "13"
+          }, {
+            "count" : 17,
+            "item" : "11"
+          }, {
+            "count" : 16,
+            "item" : "24"
+          }, {
+            "count" : 15,
+            "item" : "10"
+          }, {
+            "count" : 14,
+            "item" : "16"
+          }, {
+            "count" : 13,
+            "item" : "9"
+          }, {
+            "count" : 12,
+            "item" : "37"
+          }, {
+            "count" : 11,
+            "item" : "21"
+          }, {
+            "count" : 10,
+            "item" : "214"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981019,
+        "name" : "ITALIAN",
+        "dataTypeName" : "number",
+        "fieldName" : "italian",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907616,
+        "width" : 90,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "4454",
+          "null" : 0,
+          "average" : "57.10256410256410",
+          "largest" : "2227",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "48"
+          }, {
+            "count" : 18,
+            "item" : "10"
+          }, {
+            "count" : 17,
+            "item" : "23"
+          }, {
+            "count" : 16,
+            "item" : "85"
+          }, {
+            "count" : 15,
+            "item" : "16"
+          }, {
+            "count" : 14,
+            "item" : "199"
+          }, {
+            "count" : 13,
+            "item" : "68"
+          }, {
+            "count" : 12,
+            "item" : "17"
+          }, {
+            "count" : 11,
+            "item" : "98"
+          }, {
+            "count" : 10,
+            "item" : "29"
+          }, {
+            "count" : 9,
+            "item" : "523"
+          }, {
+            "count" : 8,
+            "item" : "136"
+          }, {
+            "count" : 7,
+            "item" : "36"
+          }, {
+            "count" : 6,
+            "item" : "42"
+          }, {
+            "count" : 5,
+            "item" : "6"
+          }, {
+            "count" : 4,
+            "item" : "81"
+          }, {
+            "count" : 3,
+            "item" : "43"
+          }, {
+            "count" : 2,
+            "item" : "20"
+          }, {
+            "count" : 1,
+            "item" : "18"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981020,
+        "name" : "JAPANESE",
+        "dataTypeName" : "number",
+        "fieldName" : "japanese",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907617,
+        "width" : 113,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "2596",
+          "null" : 0,
+          "average" : "33.28205128205128",
+          "largest" : "1298",
+          "top" : [ {
+            "count" : 20,
+            "item" : "19"
+          }, {
+            "count" : 19,
+            "item" : "41"
+          }, {
+            "count" : 18,
+            "item" : "8"
+          }, {
+            "count" : 17,
+            "item" : "59"
+          }, {
+            "count" : 16,
+            "item" : "42"
+          }, {
+            "count" : 15,
+            "item" : "84"
+          }, {
+            "count" : 14,
+            "item" : "121"
+          }, {
+            "count" : 13,
+            "item" : "206"
+          }, {
+            "count" : 12,
+            "item" : "0"
+          }, {
+            "count" : 11,
+            "item" : "7"
+          }, {
+            "count" : 10,
+            "item" : "10"
+          }, {
+            "count" : 9,
+            "item" : "6"
+          }, {
+            "count" : 8,
+            "item" : "12"
+          }, {
+            "count" : 7,
+            "item" : "25"
+          }, {
+            "count" : 6,
+            "item" : "77"
+          }, {
+            "count" : 5,
+            "item" : "203"
+          }, {
+            "count" : 4,
+            "item" : "13"
+          }, {
+            "count" : 3,
+            "item" : "23"
+          }, {
+            "count" : 2,
+            "item" : "32"
+          }, {
+            "count" : 1,
+            "item" : "30"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981021,
+        "name" : "KOREAN",
+        "dataTypeName" : "number",
+        "fieldName" : "korean",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907618,
+        "width" : 95,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "9140",
+          "null" : 0,
+          "average" : "117.1794871794872",
+          "largest" : "4570",
+          "top" : [ {
+            "count" : 20,
+            "item" : "58"
+          }, {
+            "count" : 19,
+            "item" : "486"
+          }, {
+            "count" : 18,
+            "item" : "306"
+          }, {
+            "count" : 17,
+            "item" : "390"
+          }, {
+            "count" : 16,
+            "item" : "33"
+          }, {
+            "count" : 15,
+            "item" : "130"
+          }, {
+            "count" : 14,
+            "item" : "95"
+          }, {
+            "count" : 13,
+            "item" : "263"
+          }, {
+            "count" : 12,
+            "item" : "30"
+          }, {
+            "count" : 11,
+            "item" : "34"
+          }, {
+            "count" : 10,
+            "item" : "0"
+          }, {
+            "count" : 9,
+            "item" : "26"
+          }, {
+            "count" : 8,
+            "item" : "501"
+          }, {
+            "count" : 7,
+            "item" : "389"
+          }, {
+            "count" : 6,
+            "item" : "32"
+          }, {
+            "count" : 5,
+            "item" : "151"
+          }, {
+            "count" : 4,
+            "item" : "47"
+          }, {
+            "count" : 3,
+            "item" : "4"
+          }, {
+            "count" : 2,
+            "item" : "70"
+          }, {
+            "count" : 1,
+            "item" : "40"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981022,
+        "name" : "LAOTIAN",
+        "dataTypeName" : "number",
+        "fieldName" : "laotian",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907619,
+        "width" : 96,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "812",
+          "null" : 0,
+          "average" : "10.41025641025641",
+          "largest" : "406",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "51"
+          }, {
+            "count" : 18,
+            "item" : "23"
+          }, {
+            "count" : 17,
+            "item" : "42"
+          }, {
+            "count" : 16,
+            "item" : "249"
+          }, {
+            "count" : 15,
+            "item" : "29"
+          }, {
+            "count" : 14,
+            "item" : "12"
+          }, {
+            "count" : 13,
+            "item" : "406"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981023,
+        "name" : "NAVAJO",
+        "dataTypeName" : "number",
+        "fieldName" : "navajo",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907620,
+        "width" : 99,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "24",
+          "null" : 0,
+          "average" : "0.3076923076923077",
+          "largest" : "12",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "12"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981024,
+        "name" : "OTHER ASIAN",
+        "dataTypeName" : "number",
+        "fieldName" : "other_asian",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907621,
+        "width" : 131,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "3416",
+          "null" : 0,
+          "average" : "43.79487179487179",
+          "largest" : "1708",
+          "top" : [ {
+            "count" : 20,
+            "item" : "65"
+          }, {
+            "count" : 19,
+            "item" : "154"
+          }, {
+            "count" : 18,
+            "item" : "171"
+          }, {
+            "count" : 17,
+            "item" : "49"
+          }, {
+            "count" : 16,
+            "item" : "0"
+          }, {
+            "count" : 15,
+            "item" : "46"
+          }, {
+            "count" : 14,
+            "item" : "14"
+          }, {
+            "count" : 13,
+            "item" : "10"
+          }, {
+            "count" : 12,
+            "item" : "34"
+          }, {
+            "count" : 11,
+            "item" : "56"
+          }, {
+            "count" : 10,
+            "item" : "24"
+          }, {
+            "count" : 9,
+            "item" : "84"
+          }, {
+            "count" : 8,
+            "item" : "138"
+          }, {
+            "count" : 7,
+            "item" : "26"
+          }, {
+            "count" : 6,
+            "item" : "1"
+          }, {
+            "count" : 5,
+            "item" : "27"
+          }, {
+            "count" : 4,
+            "item" : "89"
+          }, {
+            "count" : 3,
+            "item" : "13"
+          }, {
+            "count" : 2,
+            "item" : "38"
+          }, {
+            "count" : 1,
+            "item" : "114"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981025,
+        "name" : "OTHER INDIC",
+        "dataTypeName" : "number",
+        "fieldName" : "other_indic",
+        "position" : 24,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907622,
+        "width" : 119,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "3472",
+          "null" : 0,
+          "average" : "44.51282051282051",
+          "largest" : "1736",
+          "top" : [ {
+            "count" : 20,
+            "item" : "333"
+          }, {
+            "count" : 19,
+            "item" : "753"
+          }, {
+            "count" : 18,
+            "item" : "33"
+          }, {
+            "count" : 17,
+            "item" : "10"
+          }, {
+            "count" : 16,
+            "item" : "0"
+          }, {
+            "count" : 15,
+            "item" : "42"
+          }, {
+            "count" : 14,
+            "item" : "12"
+          }, {
+            "count" : 13,
+            "item" : "92"
+          }, {
+            "count" : 12,
+            "item" : "32"
+          }, {
+            "count" : 11,
+            "item" : "87"
+          }, {
+            "count" : 10,
+            "item" : "25"
+          }, {
+            "count" : 9,
+            "item" : "24"
+          }, {
+            "count" : 8,
+            "item" : "16"
+          }, {
+            "count" : 7,
+            "item" : "13"
+          }, {
+            "count" : 6,
+            "item" : "26"
+          }, {
+            "count" : 5,
+            "item" : "21"
+          }, {
+            "count" : 4,
+            "item" : "195"
+          }, {
+            "count" : 3,
+            "item" : "1736"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981026,
+        "name" : "OTHER INDO EURPOEAN",
+        "dataTypeName" : "number",
+        "fieldName" : "other_indo_eurpoean",
+        "position" : 25,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907623,
+        "width" : 193,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "9368",
+          "null" : 0,
+          "average" : "120.1025641025641",
+          "largest" : "4684",
+          "top" : [ {
+            "count" : 20,
+            "item" : "280"
+          }, {
+            "count" : 19,
+            "item" : "725"
+          }, {
+            "count" : 18,
+            "item" : "189"
+          }, {
+            "count" : 17,
+            "item" : "454"
+          }, {
+            "count" : 16,
+            "item" : "6"
+          }, {
+            "count" : 15,
+            "item" : "60"
+          }, {
+            "count" : 14,
+            "item" : "119"
+          }, {
+            "count" : 13,
+            "item" : "181"
+          }, {
+            "count" : 12,
+            "item" : "10"
+          }, {
+            "count" : 11,
+            "item" : "62"
+          }, {
+            "count" : 10,
+            "item" : "70"
+          }, {
+            "count" : 9,
+            "item" : "40"
+          }, {
+            "count" : 8,
+            "item" : "77"
+          }, {
+            "count" : 7,
+            "item" : "369"
+          }, {
+            "count" : 6,
+            "item" : "312"
+          }, {
+            "count" : 5,
+            "item" : "179"
+          }, {
+            "count" : 4,
+            "item" : "193"
+          }, {
+            "count" : 3,
+            "item" : "0"
+          }, {
+            "count" : 2,
+            "item" : "149"
+          }, {
+            "count" : 1,
+            "item" : "11"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981027,
+        "name" : "OTHER NATIVE NORTH AMERICAN",
+        "dataTypeName" : "number",
+        "fieldName" : "other_native_north_american",
+        "position" : 26,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907624,
+        "width" : 251,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "138",
+          "null" : 0,
+          "average" : "1.769230769230769",
+          "largest" : "69",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "10"
+          }, {
+            "count" : 18,
+            "item" : "59"
+          }, {
+            "count" : 17,
+            "item" : "69"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981028,
+        "name" : "OTHER PACIFIC ISLAND",
+        "dataTypeName" : "number",
+        "fieldName" : "other_pacific_island",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907625,
+        "width" : 188,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "612",
+          "null" : 0,
+          "average" : "7.846153846153846",
+          "largest" : "306",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "39"
+          }, {
+            "count" : 18,
+            "item" : "89"
+          }, {
+            "count" : 17,
+            "item" : "14"
+          }, {
+            "count" : 16,
+            "item" : "28"
+          }, {
+            "count" : 15,
+            "item" : "10"
+          }, {
+            "count" : 14,
+            "item" : "46"
+          }, {
+            "count" : 13,
+            "item" : "20"
+          }, {
+            "count" : 12,
+            "item" : "16"
+          }, {
+            "count" : 11,
+            "item" : "15"
+          }, {
+            "count" : 10,
+            "item" : "9"
+          }, {
+            "count" : 9,
+            "item" : "306"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981029,
+        "name" : "OTHER SLAVIC",
+        "dataTypeName" : "number",
+        "fieldName" : "other_slavic",
+        "position" : 28,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907626,
+        "width" : 132,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "10056",
+          "null" : 0,
+          "average" : "128.9230769230769",
+          "largest" : "5028",
+          "top" : [ {
+            "count" : 20,
+            "item" : "119"
+          }, {
+            "count" : 19,
+            "item" : "251"
+          }, {
+            "count" : 18,
+            "item" : "30"
+          }, {
+            "count" : 17,
+            "item" : "248"
+          }, {
+            "count" : 16,
+            "item" : "0"
+          }, {
+            "count" : 15,
+            "item" : "23"
+          }, {
+            "count" : 14,
+            "item" : "33"
+          }, {
+            "count" : 13,
+            "item" : "69"
+          }, {
+            "count" : 12,
+            "item" : "39"
+          }, {
+            "count" : 11,
+            "item" : "315"
+          }, {
+            "count" : 10,
+            "item" : "22"
+          }, {
+            "count" : 9,
+            "item" : "108"
+          }, {
+            "count" : 8,
+            "item" : "32"
+          }, {
+            "count" : 7,
+            "item" : "432"
+          }, {
+            "count" : 6,
+            "item" : "47"
+          }, {
+            "count" : 5,
+            "item" : "167"
+          }, {
+            "count" : 4,
+            "item" : "103"
+          }, {
+            "count" : 3,
+            "item" : "538"
+          }, {
+            "count" : 2,
+            "item" : "40"
+          }, {
+            "count" : 1,
+            "item" : "124"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981030,
+        "name" : "OTHER WEST GERMANIC",
+        "dataTypeName" : "number",
+        "fieldName" : "other_west_germanic",
+        "position" : 29,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907627,
+        "width" : 197,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "44",
+          "null" : 0,
+          "average" : "0.5641025641025641",
+          "largest" : "22",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "14"
+          }, {
+            "count" : 18,
+            "item" : "8"
+          }, {
+            "count" : 17,
+            "item" : "22"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981031,
+        "name" : "PERSIAN",
+        "dataTypeName" : "number",
+        "fieldName" : "persian",
+        "position" : 30,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907628,
+        "width" : 99,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "612",
+          "null" : 0,
+          "average" : "7.846153846153846",
+          "largest" : "306",
+          "top" : [ {
+            "count" : 20,
+            "item" : "15"
+          }, {
+            "count" : 19,
+            "item" : "24"
+          }, {
+            "count" : 18,
+            "item" : "12"
+          }, {
+            "count" : 17,
+            "item" : "0"
+          }, {
+            "count" : 16,
+            "item" : "9"
+          }, {
+            "count" : 15,
+            "item" : "54"
+          }, {
+            "count" : 14,
+            "item" : "10"
+          }, {
+            "count" : 13,
+            "item" : "26"
+          }, {
+            "count" : 12,
+            "item" : "35"
+          }, {
+            "count" : 11,
+            "item" : "4"
+          }, {
+            "count" : 10,
+            "item" : "11"
+          }, {
+            "count" : 9,
+            "item" : "103"
+          }, {
+            "count" : 8,
+            "item" : "3"
+          }, {
+            "count" : 7,
+            "item" : "306"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981032,
+        "name" : "POLISH",
+        "dataTypeName" : "number",
+        "fieldName" : "polish",
+        "position" : 31,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907629,
+        "width" : 93,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "67062",
+          "null" : 0,
+          "average" : "859.7692307692308",
+          "largest" : "33531",
+          "top" : [ {
+            "count" : 20,
+            "item" : "10"
+          }, {
+            "count" : 19,
+            "item" : "0"
+          }, {
+            "count" : 18,
+            "item" : "44"
+          }, {
+            "count" : 17,
+            "item" : "107"
+          }, {
+            "count" : 16,
+            "item" : "538"
+          }, {
+            "count" : 15,
+            "item" : "98"
+          }, {
+            "count" : 14,
+            "item" : "720"
+          }, {
+            "count" : 13,
+            "item" : "247"
+          }, {
+            "count" : 12,
+            "item" : "3"
+          }, {
+            "count" : 11,
+            "item" : "119"
+          }, {
+            "count" : 10,
+            "item" : "36"
+          }, {
+            "count" : 9,
+            "item" : "1478"
+          }, {
+            "count" : 8,
+            "item" : "135"
+          }, {
+            "count" : 7,
+            "item" : "33531"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981033,
+        "name" : "PORTUGUESE",
+        "dataTypeName" : "number",
+        "fieldName" : "portuguese",
+        "position" : 32,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907630,
+        "width" : 129,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "880",
+          "null" : 0,
+          "average" : "11.28205128205128",
+          "largest" : "440",
+          "top" : [ {
+            "count" : 20,
+            "item" : "17"
+          }, {
+            "count" : 19,
+            "item" : "0"
+          }, {
+            "count" : 18,
+            "item" : "20"
+          }, {
+            "count" : 17,
+            "item" : "11"
+          }, {
+            "count" : 16,
+            "item" : "34"
+          }, {
+            "count" : 15,
+            "item" : "47"
+          }, {
+            "count" : 14,
+            "item" : "56"
+          }, {
+            "count" : 13,
+            "item" : "8"
+          }, {
+            "count" : 12,
+            "item" : "7"
+          }, {
+            "count" : 11,
+            "item" : "28"
+          }, {
+            "count" : 10,
+            "item" : "117"
+          }, {
+            "count" : 9,
+            "item" : "35"
+          }, {
+            "count" : 8,
+            "item" : "9"
+          }, {
+            "count" : 7,
+            "item" : "4"
+          }, {
+            "count" : 6,
+            "item" : "21"
+          }, {
+            "count" : 5,
+            "item" : "15"
+          }, {
+            "count" : 4,
+            "item" : "440"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981034,
+        "name" : "RUSSIAN",
+        "dataTypeName" : "number",
+        "fieldName" : "russian",
+        "position" : 33,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907631,
+        "width" : 94,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "8792",
+          "null" : 0,
+          "average" : "112.7179487179487",
+          "largest" : "4396",
+          "top" : [ {
+            "count" : 20,
+            "item" : "312"
+          }, {
+            "count" : 19,
+            "item" : "478"
+          }, {
+            "count" : 18,
+            "item" : "764"
+          }, {
+            "count" : 17,
+            "item" : "68"
+          }, {
+            "count" : 16,
+            "item" : "0"
+          }, {
+            "count" : 15,
+            "item" : "336"
+          }, {
+            "count" : 14,
+            "item" : "45"
+          }, {
+            "count" : 13,
+            "item" : "521"
+          }, {
+            "count" : 12,
+            "item" : "15"
+          }, {
+            "count" : 11,
+            "item" : "279"
+          }, {
+            "count" : 10,
+            "item" : "81"
+          }, {
+            "count" : 9,
+            "item" : "16"
+          }, {
+            "count" : 8,
+            "item" : "12"
+          }, {
+            "count" : 7,
+            "item" : "9"
+          }, {
+            "count" : 6,
+            "item" : "41"
+          }, {
+            "count" : 5,
+            "item" : "46"
+          }, {
+            "count" : 4,
+            "item" : "62"
+          }, {
+            "count" : 3,
+            "item" : "86"
+          }, {
+            "count" : 2,
+            "item" : "7"
+          }, {
+            "count" : 1,
+            "item" : "125"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981035,
+        "name" : "SCANDINAVIAN",
+        "dataTypeName" : "number",
+        "fieldName" : "scandinavian",
+        "position" : 34,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907632,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "32",
+          "null" : 0,
+          "average" : "0.4102564102564103",
+          "largest" : "16",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "11"
+          }, {
+            "count" : 18,
+            "item" : "5"
+          }, {
+            "count" : 17,
+            "item" : "16"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981036,
+        "name" : "SERBO-CROATIAN",
+        "dataTypeName" : "number",
+        "fieldName" : "serbo_croatian",
+        "position" : 35,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907633,
+        "width" : 153,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "9494",
+          "null" : 0,
+          "average" : "121.7179487179487",
+          "largest" : "4747",
+          "top" : [ {
+            "count" : 20,
+            "item" : "118"
+          }, {
+            "count" : 19,
+            "item" : "981"
+          }, {
+            "count" : 18,
+            "item" : "209"
+          }, {
+            "count" : 17,
+            "item" : "218"
+          }, {
+            "count" : 16,
+            "item" : "45"
+          }, {
+            "count" : 15,
+            "item" : "68"
+          }, {
+            "count" : 14,
+            "item" : "139"
+          }, {
+            "count" : 13,
+            "item" : "123"
+          }, {
+            "count" : 12,
+            "item" : "52"
+          }, {
+            "count" : 11,
+            "item" : "224"
+          }, {
+            "count" : 10,
+            "item" : "99"
+          }, {
+            "count" : 9,
+            "item" : "88"
+          }, {
+            "count" : 8,
+            "item" : "77"
+          }, {
+            "count" : 7,
+            "item" : "404"
+          }, {
+            "count" : 6,
+            "item" : "210"
+          }, {
+            "count" : 5,
+            "item" : "211"
+          }, {
+            "count" : 4,
+            "item" : "35"
+          }, {
+            "count" : 3,
+            "item" : "4"
+          }, {
+            "count" : 2,
+            "item" : "20"
+          }, {
+            "count" : 1,
+            "item" : "149"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981037,
+        "name" : "SPANISH",
+        "dataTypeName" : "number",
+        "fieldName" : "spanish",
+        "position" : 36,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907634,
+        "width" : 96,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "576436",
+          "null" : 0,
+          "average" : "7390.205128205128",
+          "largest" : "288218",
+          "top" : [ {
+            "count" : 20,
+            "item" : "256"
+          }, {
+            "count" : 19,
+            "item" : "46"
+          }, {
+            "count" : 18,
+            "item" : "48"
+          }, {
+            "count" : 17,
+            "item" : "2426"
+          }, {
+            "count" : 16,
+            "item" : "0"
+          }, {
+            "count" : 15,
+            "item" : "79"
+          }, {
+            "count" : 14,
+            "item" : "105"
+          }, {
+            "count" : 13,
+            "item" : "342"
+          }, {
+            "count" : 12,
+            "item" : "1861"
+          }, {
+            "count" : 11,
+            "item" : "6421"
+          }, {
+            "count" : 10,
+            "item" : "604"
+          }, {
+            "count" : 9,
+            "item" : "67"
+          }, {
+            "count" : 8,
+            "item" : "803"
+          }, {
+            "count" : 7,
+            "item" : "2930"
+          }, {
+            "count" : 6,
+            "item" : "3409"
+          }, {
+            "count" : 5,
+            "item" : "16124"
+          }, {
+            "count" : 4,
+            "item" : "3392"
+          }, {
+            "count" : 3,
+            "item" : "2375"
+          }, {
+            "count" : 2,
+            "item" : "10360"
+          }, {
+            "count" : 1,
+            "item" : "5386"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981038,
+        "name" : "TAGALOG",
+        "dataTypeName" : "number",
+        "fieldName" : "tagalog",
+        "position" : 37,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907635,
+        "width" : 105,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "12246",
+          "null" : 0,
+          "average" : "157",
+          "largest" : "6123",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "14"
+          }, {
+            "count" : 18,
+            "item" : "7"
+          }, {
+            "count" : 17,
+            "item" : "5"
+          }, {
+            "count" : 16,
+            "item" : "68"
+          }, {
+            "count" : 15,
+            "item" : "181"
+          }, {
+            "count" : 14,
+            "item" : "6123"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981039,
+        "name" : "THAI",
+        "dataTypeName" : "number",
+        "fieldName" : "thai",
+        "position" : 38,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907636,
+        "width" : 77,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "2688",
+          "null" : 0,
+          "average" : "34.46153846153846",
+          "largest" : "1344",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "222"
+          }, {
+            "count" : 18,
+            "item" : "56"
+          }, {
+            "count" : 17,
+            "item" : "14"
+          }, {
+            "count" : 16,
+            "item" : "145"
+          }, {
+            "count" : 15,
+            "item" : "54"
+          }, {
+            "count" : 14,
+            "item" : "25"
+          }, {
+            "count" : 13,
+            "item" : "123"
+          }, {
+            "count" : 12,
+            "item" : "70"
+          }, {
+            "count" : 11,
+            "item" : "34"
+          }, {
+            "count" : 10,
+            "item" : "36"
+          }, {
+            "count" : 9,
+            "item" : "10"
+          }, {
+            "count" : 8,
+            "item" : "7"
+          }, {
+            "count" : 7,
+            "item" : "134"
+          }, {
+            "count" : 6,
+            "item" : "8"
+          }, {
+            "count" : 5,
+            "item" : "51"
+          }, {
+            "count" : 4,
+            "item" : "11"
+          }, {
+            "count" : 3,
+            "item" : "18"
+          }, {
+            "count" : 2,
+            "item" : "71"
+          }, {
+            "count" : 1,
+            "item" : "15"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981040,
+        "name" : "UNSPECIFIED",
+        "dataTypeName" : "number",
+        "fieldName" : "unspecified",
+        "position" : 39,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1907637,
+        "width" : 135,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "2366",
+          "null" : 0,
+          "average" : "30.33333333333333",
+          "largest" : "1183",
+          "top" : [ {
+            "count" : 20,
+            "item" : "11"
+          }, {
+            "count" : 19,
+            "item" : "592"
+          }, {
+            "count" : 18,
+            "item" : "0"
+          }, {
+            "count" : 17,
+            "item" : "97"
+          }, {
+            "count" : 16,
+            "item" : "10"
+          }, {
+            "count" : 15,
+            "item" : "40"
+          }, {
+            "count" : 14,
+            "item" : "32"
+          }, {
+            "count" : 13,
+            "item" : "16"
+          }, {
+            "count" : 12,
+            "item" : "8"
+          }, {
+            "count" : 11,
+            "item" : "49"
+          }, {
+            "count" : 10,
+            "item" : "125"
+          }, {
+            "count" : 9,
+            "item" : "82"
+          }, {
+            "count" : 8,
+            "item" : "35"
+          }, {
+            "count" : 7,
+            "item" : "9"
+          }, {
+            "count" : 6,
+            "item" : "23"
+          }, {
+            "count" : 5,
+            "item" : "31"
+          }, {
+            "count" : 4,
+            "item" : "1183"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 69981041,
+        "name" : "URDU",
+        "dataTypeName" : "number",
+        "fieldName" : "urdu",
+        "position" : 40,
+        "renderTypeName" : "number",
+        "tableColumnId" : 3687703,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "6208",
+          "null" : 0,
+          "average" : "79.58974358974359",
+          "largest" : "3104",
+          "top" : [ {
+            "count" : 20,
+            "item" : "193"
+          }, {
+            "count" : 19,
+            "item" : "1335"
+          }, {
+            "count" : 18,
+            "item" : "287"
+          }, {
+            "count" : 17,
+            "item" : "277"
+          }, {
+            "count" : 16,
+            "item" : "0"
+          }, {
+            "count" : 15,
+            "item" : "47"
+          }, {
+            "count" : 14,
+            "item" : "8"
+          }, {
+            "count" : 13,
+            "item" : "114"
+          }, {
+            "count" : 12,
+            "item" : "74"
+          }, {
+            "count" : 11,
+            "item" : "157"
+          }, {
+            "count" : 10,
+            "item" : "154"
+          }, {
+            "count" : 9,
+            "item" : "92"
+          }, {
+            "count" : 8,
+            "item" : "13"
+          }, {
+            "count" : 7,
+            "item" : "18"
+          }, {
+            "count" : 6,
+            "item" : "60"
+          }, {
+            "count" : 5,
+            "item" : "39"
+          }, {
+            "count" : 4,
+            "item" : "12"
+          }, {
+            "count" : 3,
+            "item" : "30"
+          }, {
+            "count" : 2,
+            "item" : "29"
+          }, {
+            "count" : 1,
+            "item" : "6"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981042,
+        "name" : "VIETNAMESE",
+        "dataTypeName" : "number",
+        "fieldName" : "vietnamese",
+        "position" : 41,
+        "renderTypeName" : "number",
+        "tableColumnId" : 3687704,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "7844",
+          "null" : 0,
+          "average" : "100.5641025641026",
+          "largest" : "3922",
+          "top" : [ {
+            "count" : 20,
+            "item" : "23"
+          }, {
+            "count" : 19,
+            "item" : "917"
+          }, {
+            "count" : 18,
+            "item" : "519"
+          }, {
+            "count" : 17,
+            "item" : "115"
+          }, {
+            "count" : 16,
+            "item" : "9"
+          }, {
+            "count" : 15,
+            "item" : "215"
+          }, {
+            "count" : 14,
+            "item" : "0"
+          }, {
+            "count" : 13,
+            "item" : "61"
+          }, {
+            "count" : 12,
+            "item" : "73"
+          }, {
+            "count" : 11,
+            "item" : "142"
+          }, {
+            "count" : 10,
+            "item" : "254"
+          }, {
+            "count" : 9,
+            "item" : "293"
+          }, {
+            "count" : 8,
+            "item" : "615"
+          }, {
+            "count" : 7,
+            "item" : "16"
+          }, {
+            "count" : 6,
+            "item" : "10"
+          }, {
+            "count" : 5,
+            "item" : "17"
+          }, {
+            "count" : 4,
+            "item" : "31"
+          }, {
+            "count" : 3,
+            "item" : "71"
+          }, {
+            "count" : 2,
+            "item" : "80"
+          }, {
+            "count" : 1,
+            "item" : "19"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 69981043,
+        "name" : "YIDDISH",
+        "dataTypeName" : "number",
+        "fieldName" : "yiddish",
+        "position" : 42,
+        "renderTypeName" : "number",
+        "tableColumnId" : 3687705,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 78,
+          "smallest" : "0",
+          "sum" : "210",
+          "null" : 0,
+          "average" : "2.692307692307692",
+          "largest" : "105",
+          "top" : [ {
+            "count" : 20,
+            "item" : "3"
+          }, {
+            "count" : 19,
+            "item" : "102"
+          }, {
+            "count" : 18,
+            "item" : "0"
+          }, {
+            "count" : 17,
+            "item" : "105"
+          } ]
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Last Updated Date via Automated Load" : "",
+            "Time Period" : "2007 - 2011",
+            "Data Owner" : "Public Health",
+            "Frequency" : "Updated as new data becomes available"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "blobId" : "9B885EEC-A2C6-496F-90E6-6F13522A19B6",
+          "name" : "Dataset_Description_Languages_2011_FOR_PORTAL_ONLY.pdf",
+          "filename" : "Dataset_Description_Languages_2011_FOR_PORTAL_ONLY.pdf"
+        } ],
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "is6y-5c5n",
+        "displayName" : "Jamyia",
+        "roleName" : "editor",
+        "screenName" : "Jamyia",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "is6y-5c5n",
+        "displayName" : "Jamyia",
+        "roleName" : "editor",
+        "screenName" : "Jamyia",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards" ]
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "1187DC6E-67A1-4C0A-A0FD-019B280ADFE5", 1, 1369924913, "400368", 1369924913, "400368", "{\n}", "1", "Rogers Park", "SPANISH (9.8%)", "269", "142", "53", "17", "277", "254", "159", "23", "4", "89", "0", "70", "0", "0", "0", "19", "58", "0", "0", "65", "333", "280", "0", "0", "119", "0", "15", "171", "17", "312", "0", "118", "5141", "147", "0", "11", "193", "23", "3" ]
+, [ 2, "828EC36C-AABA-4B72-8BCB-81A7AEBE07A2", 2, 1369924913, "400368", 1369924913, "400368", "{\n}", "2", "West Ridge", "SPANISH (9.2%)", "274", "1688", "0", "0", "696", "70", "160", "14", "272", "596", "109", "907", "0", "49", "48", "41", "486", "0", "0", "154", "753", "725", "0", "39", "251", "0", "24", "256", "0", "478", "0", "981", "6212", "587", "222", "592", "1335", "917", "102" ]
+, [ 3, "D3F05237-1C3B-4BD2-9760-6CB1F8DB4230", 3, 1369924913, "400368", 1369924913, "400368", "{\n}", "3", "Uptown", "SPANISH (6.3%)", "722", "72", "0", "12", "498", "0", "161", "33", "44", "0", "0", "71", "0", "0", "48", "8", "306", "0", "0", "171", "33", "189", "0", "89", "30", "0", "12", "113", "0", "764", "0", "209", "3326", "298", "56", "0", "287", "519", "0" ]
+, [ 4, "AACFEBED-E550-4511-9E43-EB898C68E118", 4, 1369924913, "400368", 1369924913, "400368", "{\n}", "4", "Lincoln Square", "SPANISH (7.9%)", "171", "48", "27", "0", "110", "13", "31", "45", "431", "0", "9", "145", "0", "0", "0", "59", "390", "51", "12", "49", "10", "454", "0", "0", "248", "0", "0", "52", "20", "68", "0", "218", "2837", "170", "14", "97", "277", "115", "0" ]
+, [ 5, "F2CFD4B6-B13A-4BF2-A93B-20D86848B2BB", 5, 1369924913, "400368", 1369924913, "400368", "{\n}", "5", "North Center", "SPANISH (4.3%)", "0", "0", "0", "0", "19", "0", "29", "225", "0", "0", "41", "0", "0", "13", "10", "42", "33", "0", "0", "0", "0", "6", "0", "0", "0", "0", "0", "59", "11", "0", "0", "45", "1299", "113", "0", "10", "0", "9", "0" ]
+, [ 6, "6F4B9AFA-D88C-4525-9BB5-6CFC24308609", 6, 1369924913, "400368", 1369924913, "400368", "{\n}", "6", "Lake View", "SPANISH (2.1%)", "329", "99", "0", "0", "263", "0", "106", "164", "34", "0", "0", "8", "0", "0", "10", "84", "130", "0", "0", "0", "42", "60", "10", "0", "23", "0", "0", "200", "34", "336", "11", "68", "1926", "121", "145", "0", "47", "215", "0" ]
+, [ 7, "FC0464D5-A4FA-4A4C-9F8D-461794938187", 7, 1369924913, "400368", 1369924913, "400368", "{\n}", "7", "Lincoln Park", "SPANISH (1.1%)", "44", "9", "0", "0", "116", "0", "158", "42", "41", "46", "13", "8", "0", "0", "23", "121", "95", "0", "0", "46", "0", "119", "0", "0", "33", "0", "9", "33", "0", "45", "0", "139", "687", "48", "0", "40", "0", "0", "0" ]
+, [ 8, "A57C2D11-EA9D-44E4-9D0F-4E8C314AE91E", 8, 1369924913, "400368", 1369924913, "400368", "{\n}", "8", "Near North Side", "SPANISH (1.1%)", "63", "48", "0", "24", "407", "0", "133", "76", "26", "14", "11", "104", "0", "11", "85", "206", "263", "0", "0", "14", "12", "181", "0", "14", "0", "14", "54", "83", "47", "521", "0", "123", "828", "154", "54", "32", "8", "61", "0" ]
+, [ 9, "AEB4C9CF-042B-4F1B-8840-75225E4AF1AB", 9, 1369924913, "400368", 1369924913, "400368", "{\n}", "9", "Edison Park", "POLISH (1.6%)", "0", "0", "0", "0", "0", "0", "18", "18", "8", "0", "0", "0", "0", "0", "16", "0", "30", "0", "0", "10", "0", "10", "0", "0", "69", "0", "0", "167", "0", "0", "0", "52", "76", "0", "0", "0", "0", "0", "0" ]
+, [ 10, "5FAC4AF4-1677-428C-9C97-46F577CF49F5", 10, 1369924913, "400368", 1369924913, "400368", "{\n}", "10", "Norwood Park", "POLISH (6.6%)", "0", "42", "0", "26", "70", "0", "13", "42", "91", "0", "0", "46", "0", "0", "199", "7", "34", "23", "0", "34", "0", "62", "0", "0", "39", "0", "0", "2313", "0", "15", "0", "224", "914", "141", "0", "16", "0", "73", "0" ]
+, [ 11, "9A25E0EA-5CB3-439C-8D53-A3AD5A44BA9D", 11, 1369924913, "400368", 1369924913, "400368", "{\n}", "11", "Jefferson Park", "POLISH (8.8%)", "0", "215", "11", "44", "173", "0", "24", "0", "85", "0", "0", "0", "0", "0", "68", "10", "0", "0", "0", "0", "0", "70", "0", "28", "315", "0", "0", "2161", "0", "0", "0", "99", "841", "206", "0", "8", "114", "142", "0" ]
+, [ 12, "EFAE09D5-C12D-44DC-9480-5E7F9F3BE91C", 12, 1369924913, "400368", 1369924913, "400368", "{\n}", "12", "Forest Glen", "POLISH (1.2%)", "0", "117", "27", "0", "20", "0", "0", "59", "205", "173", "0", "13", "0", "0", "0", "8", "26", "0", "0", "14", "0", "40", "0", "0", "22", "0", "0", "220", "0", "0", "0", "88", "174", "220", "0", "49", "74", "254", "0" ]
+, [ 13, "831DCEBC-13BB-4631-AD7B-11E4E165A7F9", 13, 1369924913, "400368", 1369924913, "400368", "{\n}", "13", "North Park", "SPANISH (6.2%)", "56", "201", "0", "125", "214", "0", "0", "46", "92", "223", "0", "46", "0", "0", "17", "10", "501", "42", "0", "56", "92", "77", "0", "0", "108", "0", "10", "26", "0", "279", "0", "77", "1057", "302", "25", "125", "157", "293", "0" ]
+, [ 14, "FFD70289-8F2E-488B-8EED-5E81593DB8FA", 14, 1369924913, "400368", 1369924913, "400368", "{\n}", "14", "Albany Park", "SPANISH (29.9%)", "153", "921", "14", "204", "177", "0", "84", "22", "31", "284", "0", "158", "0", "0", "0", "0", "389", "249", "0", "24", "10", "369", "59", "0", "32", "0", "26", "249", "0", "81", "0", "404", "14629", "760", "123", "82", "154", "615", "0" ]
+, [ 15, "AA53CBC0-5E35-4C5B-8082-0B6238F9C5EA", 15, 1369924913, "400368", 1369924913, "400368", "{\n}", "15", "Portage Park", "SPANISH (11.9%)", "0", "297", "0", "0", "60", "0", "22", "79", "108", "0", "0", "0", "0", "11", "98", "0", "32", "0", "0", "84", "0", "312", "0", "0", "432", "0", "0", "5348", "0", "0", "0", "210", "7098", "739", "54", "0", "0", "16", "0" ]
+, [ 16, "E25AA612-27AC-43F6-BA0C-65802700E7C9", 16, 1369924913, "400368", 1369924913, "400368", "{\n}", "16", "Irving Park", "SPANISH (18.5%)", "348", "414", "0", "0", "87", "0", "74", "58", "19", "44", "0", "15", "0", "24", "29", "6", "151", "29", "0", "138", "32", "179", "0", "10", "47", "0", "35", "706", "56", "16", "0", "211", "9267", "677", "70", "35", "92", "10", "0" ]
+, [ 17, "0D22840E-9B24-4CCB-8B68-3FD919ECC2EE", 17, 1369924913, "400368", 1369924913, "400368", "{\n}", "17", "Dunning", "POLISH (15.5%)", "0", "67", "0", "31", "37", "0", "0", "59", "90", "0", "0", "31", "0", "13", "523", "0", "47", "12", "0", "26", "0", "193", "0", "0", "167", "0", "0", "6139", "0", "12", "0", "35", "2130", "187", "34", "9", "0", "17", "0" ]
+, [ 18, "7BA80D20-A482-448C-8C48-CD6F7824E989", 18, 1369924913, "400368", 1369924913, "400368", "{\n}", "18", "Montclaire", "SPANISH (19.5%)", "0", "11", "0", "0", "11", "0", "0", "10", "37", "0", "0", "0", "0", "0", "136", "0", "4", "0", "0", "0", "0", "0", "0", "46", "103", "0", "0", "775", "0", "9", "0", "4", "2413", "0", "0", "23", "0", "0", "0" ]
+, [ 19, "7E4B90CC-6A20-4827-9D21-2A47A250A504", 19, 1369924913, "400368", 1369924913, "400368", "{\n}", "19", "Belmont Cragin", "SPANISH (34.2%)", "31", "175", "0", "0", "18", "0", "0", "40", "57", "0", "0", "0", "0", "0", "36", "0", "0", "0", "0", "1", "87", "149", "0", "0", "538", "0", "0", "3926", "11", "41", "0", "20", "24851", "281", "36", "0", "13", "0", "0" ]
+, [ 20, "8D8BB581-1C98-4501-BB6D-3396AC130529", 20, 1369924913, "400368", 1369924913, "400368", "{\n}", "20", "Hermosa", "SPANISH (36.9%)", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "10", "0", "0", "10", "0", "0", "0", "0", "27", "0", "11", "0", "0", "40", "0", "0", "254", "0", "12", "0", "68", "8327", "0", "0", "0", "18", "0", "0" ]
+, [ 21, "AA97933C-2B92-4C9B-8770-BA9F25E0B8AD", 21, 1369924913, "400368", 1369924913, "400368", "{\n}", "21", "Avondale", "SPANISH (31.8%)", "0", "30", "0", "0", "90", "0", "7", "19", "14", "0", "0", "0", "0", "0", "42", "0", "70", "0", "0", "89", "25", "20", "0", "0", "124", "0", "0", "1798", "8", "46", "0", "149", "11768", "117", "0", "0", "0", "31", "0" ]
+, [ 22, "C765603E-9C08-47BD-B9BC-145797254452", 22, 1369924913, "400368", 1369924913, "400368", "{\n}", "22", "Logan Square", "SPANISH (21%)", "0", "0", "0", "93", "40", "0", "14", "8", "0", "0", "5", "0", "0", "10", "0", "0", "40", "0", "0", "13", "0", "30", "0", "0", "30", "0", "0", "492", "0", "62", "0", "0", "14380", "47", "10", "0", "0", "0", "0" ]
+, [ 23, "96726EFB-37A1-4355-853E-94EF47C241AB", 23, 1369924913, "400368", 1369924913, "400368", "{\n}", "23", "Humboldt Park", "SPANISH (19%)", "0", "21", "0", "0", "0", "0", "38", "10", "23", "0", "0", "0", "0", "0", "6", "6", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "24", "7", "0", "0", "0", "9269", "18", "0", "0", "0", "0", "0" ]
+, [ 24, "56B38DB6-1D63-4BD9-8608-290580F8BD8D", 24, 1369924913, "400368", 1369924913, "400368", "{\n}", "24", "West Town", "SPANISH (9.3%)", "15", "41", "0", "0", "16", "25", "26", "37", "45", "0", "0", "29", "0", "16", "81", "0", "55", "0", "0", "0", "0", "99", "0", "0", "1387", "8", "0", "1003", "28", "86", "0", "14", "7149", "51", "0", "31", "60", "71", "0" ]
+, [ 25, "DF555A4E-C3B1-41A8-AB12-96DDF11DBF47", 25, 1369924913, "400368", 1369924913, "400368", "{\n}", "25", "Austin", "SPANISH (3%)", "27", "0", "0", "0", "20", "8", "32", "0", "0", "19", "0", "0", "0", "0", "0", "12", "0", "0", "0", "0", "0", "133", "0", "10", "0", "0", "0", "164", "117", "7", "0", "0", "2742", "12", "0", "0", "0", "0", "0" ]
+, [ 26, "1FEEA4F7-B490-4A54-9B9F-0C64A088FCC6", 26, 1369924913, "400368", 1369924913, "400368", "{\n}", "26", "West Garfield Park", "SPANISH (0.1%)", "0", "0", "0", "0", "0", "0", "0", "4", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "10", "0", "0", "0", "0", "12", "0", "0", "0", "0", "0", "0" ]
+, [ 27, "1C68237C-1DB5-4A77-A2E7-C0B40CB2A430", 27, 1369924913, "400368", 1369924913, "400368", "{\n}", "27", "East Garfield Park", "SPANISH (0.8%)", "27", "0", "0", "0", "0", "0", "35", "12", "17", "0", "12", "16", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "158", "0", "7", "0", "0", "0", "0" ]
+, [ 28, "89B72B7A-C4D3-4AB2-8D4E-A471CAB56127", 28, 1369924913, "400368", 1369924913, "400368", "{\n}", "28", "Near West Side", "SPANISH (2.1%)", "0", "82", "0", "16", "613", "0", "63", "34", "22", "60", "9", "71", "0", "0", "43", "25", "272", "0", "0", "38", "24", "67", "0", "0", "67", "0", "0", "44", "0", "125", "0", "0", "1053", "90", "134", "0", "39", "80", "0" ]
+, [ 29, "BC4F33C5-F310-4756-8003-32B57AAA5E43", 29, 1369924913, "400368", 1369924913, "400368", "{\n}", "29", "North Lawndale", "SPANISH (2.5%)", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "8", "0", "0", "0", "0", "829", "8", "0", "0", "0", "0", "0" ]
+, [ 30, "E4C19A45-2B65-4ED2-8857-FEE886E88CD3", 30, 1369924913, "400368", 1369924913, "400368", "{\n}", "30", "South Lawndale", "SPANISH (44.7%)", "17", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "71", "35", "0", "0", "0", "29672", "3", "0", "0", "0", "0", "0" ]
+, [ 31, "B7B0D7E1-9749-43E0-BDAC-1E63EE364BE8", 31, 1369924913, "400368", 1369924913, "400368", "{\n}", "31", "Lower West Side", "SPANISH (39.5%)", "0", "29", "0", "0", "18", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "44", "0", "0", "0", "0", "13440", "10", "8", "0", "0", "0", "0" ]
+, [ 32, "860ED5A6-9579-41FB-923A-949163775375", 32, 1369924913, "400368", 1369924913, "400368", "{\n}", "32", "Loop", "CHINESE (1.4%)", "0", "31", "0", "0", "314", "0", "20", "0", "0", "0", "0", "49", "0", "0", "0", "77", "105", "0", "0", "114", "16", "35", "0", "0", "0", "0", "0", "0", "0", "67", "0", "0", "257", "14", "51", "0", "12", "0", "0" ]
+, [ 33, "E71BCE1C-D887-48B0-B5D8-E655648F8117", 33, 1369924913, "400368", 1369924913, "400368", "{\n}", "33", "Near South Side", "CHINESE (2%)", "12", "22", "0", "0", "355", "0", "0", "13", "0", "0", "0", "94", "0", "0", "0", "203", "49", "0", "0", "29", "13", "108", "0", "0", "4", "0", "0", "46", "9", "48", "0", "0", "180", "11", "56", "0", "30", "0", "0" ]
+, [ 34, "83164F7B-C442-4725-B382-AAACE8266FED", 34, 1369924913, "400368", 1369924913, "400368", "{\n}", "34", "Armour Square", "CHINESE (46.6%)", "3", "0", "0", "0", "6351", "0", "13", "0", "0", "0", "0", "11", "0", "0", "20", "0", "30", "0", "0", "0", "0", "0", "0", "20", "0", "0", "0", "0", "0", "0", "0", "0", "156", "0", "0", "0", "0", "16", "0" ]
+, [ 35, "5BF9FA91-0D26-4C67-BBF1-3235AC79803B", 35, 1369924913, "400368", 1369924913, "400368", "{\n}", "35", "Douglas", "CHINESE (2.5%)", "83", "0", "0", "0", "437", "0", "70", "0", "10", "32", "0", "24", "0", "0", "0", "13", "136", "0", "0", "29", "26", "2", "0", "16", "50", "0", "4", "0", "0", "0", "0", "0", "235", "0", "11", "0", "0", "19", "0" ]
+, [ 36, "44E0EC6C-B60C-4EA3-BBB9-8FAA72C47204", 36, 1369924913, "400368", 1369924913, "400368", "{\n}", "36", "Oakland", "SPANISH (1.6%)", "12", "0", "0", "0", "19", "0", "0", "7", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "9", "0", "0", "0", "0", "87", "0", "0", "0", "0", "0", "0" ]
+, [ 37, "BEC85F32-155A-494C-85E4-94BF58F00CA6", 37, 1369924913, "400368", 1369924913, "400368", "{\n}", "37", "Fuller Park", "SPANISH (2.4%)", "30", "0", "0", "0", "11", "0", "0", "4", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "63", "0", "0", "0", "0", "0", "0" ]
+, [ 38, "07AB49BB-60EC-47BB-AB86-6D3E8E6062C5", 38, 1369924913, "400368", 1369924913, "400368", "{\n}", "38", "Grand Boulevard", "SPANISH (0.8%)", "0", "0", "0", "0", "0", "10", "13", "0", "0", "0", "0", "0", "0", "0", "0", "10", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "56", "0", "5", "0", "0", "163", "0", "0", "0", "0", "0", "0" ]
+, [ 39, "B948B31D-B1FC-4681-A74A-0BAC68895D1C", 39, 1369924913, "400368", 1369924913, "400368", "{\n}", "39", "Kenwood", "SPANISH (1%)", "35", "0", "0", "0", "87", "0", "73", "49", "0", "8", "0", "0", "0", "0", "0", "23", "137", "0", "0", "21", "0", "17", "0", "0", "0", "0", "0", "10", "4", "4", "0", "0", "168", "22", "0", "0", "0", "0", "0" ]
+, [ 40, "9E1639FF-DF42-4D33-953B-0650F38C5D62", 40, 1369924913, "400368", 1369924913, "400368", "{\n}", "40", "Washington Park", "SPANISH (0.9%)", "0", "0", "0", "0", "0", "3", "0", "0", "0", "0", "0", "1", "0", "0", "0", "8", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "91", "0", "0", "0", "0", "0", "0" ]
+, [ 41, "935157B9-BB0B-42D5-BD5A-4633875440E4", 41, 1369924913, "400368", 1369924913, "400368", "{\n}", "41", "Hyde Park", "SPANISH (1.9%)", "18", "31", "8", "0", "433", "22", "89", "37", "8", "0", "5", "9", "0", "9", "18", "32", "258", "0", "0", "0", "21", "0", "0", "0", "81", "0", "0", "14", "21", "35", "0", "54", "495", "26", "0", "0", "0", "17", "0" ]
+, [ 42, "85AB1F08-2F7E-42E2-96DC-09EC83A875DB", 42, 1369924913, "400368", 1369924913, "400368", "{\n}", "42", "Woodlawn", "SPANISH (1.1%)", "48", "16", "0", "0", "20", "0", "49", "41", "0", "0", "0", "0", "0", "0", "6", "0", "34", "0", "0", "0", "0", "34", "0", "0", "0", "0", "0", "0", "15", "0", "0", "0", "256", "0", "0", "0", "0", "0", "0" ]
+, [ 43, "0AAE02F9-BE97-4D80-BC95-4985D6AF8DD9", 43, 1369924913, "400368", 1369924913, "400368", "{\n}", "43", "South Shore", "SPANISH (0.6%)", "242", "0", "0", "0", "0", "0", "228", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "3", "0", "0", "4", "0", "0", "0", "0", "256", "0", "0", "0", "0", "0", "0" ]
+, [ 44, "389B23A5-393B-4538-80AD-38DEAE2375CF", 44, 1369924913, "400368", 1369924913, "400368", "{\n}", "44", "Chatham", "SPANISH (0.1%)", "0", "0", "0", "0", "21", "0", "15", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "46", "0", "0", "0", "0", "0", "0" ]
+, [ 45, "906F5F95-CA09-4EE8-9442-E6FFE78CF793", 45, 1369924913, "400368", 1369924913, "400368", "{\n}", "45", "Avalon Park", "SPANISH (0.5%)", "39", "0", "0", "0", "0", "0", "8", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "48", "0", "18", "0", "0", "0", "0" ]
+, [ 46, "68BFF8FC-8674-4872-B791-A050CB087229", 46, 1369924913, "400368", 1369924913, "400368", "{\n}", "46", "South Chicago", "SPANISH (8.4%)", "566", "0", "0", "0", "0", "207", "50", "16", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "15", "0", "0", "0", "0", "0", "0", "0", "0", "2426", "0", "0", "0", "0", "0", "0" ]
+, [ 47, "5B257CE2-1AD6-48A4-AD03-34A688C6636F", 47, 1369924913, "400368", 1369924913, "400368", "{\n}", "47", "Burnside", "AFRICAN LANGUAGES (0.6%)", "18", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 48, "5D1B8964-4231-4BAF-AC95-13DF8CEA70D3", 48, 1369924913, "400368", 1369924913, "400368", "{\n}", "48", "Calumet Heights", "AFRICAN LANGUAGES (0.6%)", "88", "0", "0", "0", "0", "37", "39", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "79", "0", "0", "0", "0", "0", "0" ]
+, [ 49, "E178488F-B8D3-4735-9B5D-1319FAEB0DD3", 49, 1369924913, "400368", 1369924913, "400368", "{\n}", "49", "Roseland", "SPANISH (0.2%)", "9", "0", "0", "0", "0", "0", "16", "10", "0", "19", "0", "0", "0", "0", "0", "0", "7", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "105", "0", "0", "0", "0", "0", "0" ]
+, [ 50, "F510A0C7-D364-4923-9407-4BFF902E6883", 50, 1369924913, "400368", 1369924913, "400368", "{\n}", "50", "Pullman", "SPANISH (5%)", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "4", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "342", "0", "0", "0", "0", "0", "0" ]
+, [ 51, "A9044017-2CD2-4782-A338-F9BD0E01C656", 51, 1369924913, "400368", 1369924913, "400368", "{\n}", "51", "South Deering", "SPANISH (11.8%)", "0", "0", "0", "0", "0", "44", "15", "0", "0", "0", "0", "0", "0", "0", "2", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "19", "1861", "0", "0", "0", "0", "0", "0" ]
+, [ 52, "2C0EC4FB-7EA5-4D1D-A262-4F132C7F5321", 52, 1369924913, "400368", 1369924913, "400368", "{\n}", "52", "East Side", "SPANISH (28.2%)", "0", "10", "0", "13", "0", "0", "0", "27", "9", "0", "22", "0", "0", "0", "61", "0", "23", "0", "0", "0", "0", "0", "0", "0", "12", "0", "0", "0", "0", "0", "0", "288", "6421", "1", "0", "0", "0", "0", "0" ]
+, [ 53, "BDB3F6DA-3FE8-4426-94BD-787E0CFA87D1", 53, 1369924913, "400368", 1369924913, "400368", "{\n}", "53", "West Pullman", "SPANISH (2%)", "32", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "604", "0", "0", "0", "0", "0", "0" ]
+, [ 54, "CADD690C-D919-426F-8EC2-563FE688F60E", 54, 1369924913, "400368", 1369924913, "400368", "{\n}", "54", "Riverdale", "SPANISH (1.1%)", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "67", "0", "0", "0", "0", "0", "0" ]
+, [ 55, "9814BD58-FFF9-4E40-92C2-02E398DB6AA6", 55, 1369924913, "400368", 1369924913, "400368", "{\n}", "55", "Hegewisch", "SPANISH (8.4%)", "0", "68", "0", "0", "0", "0", "0", "0", "29", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "34", "0", "0", "0", "34", "803", "17", "0", "0", "0", "0", "0" ]
+, [ 56, "42A6E4D0-88E9-4E26-B4B1-0C19C5CEF428", 56, 1369924913, "400368", 1369924913, "400368", "{\n}", "56", "Garfield Ridge", "SPANISH (9.2%)", "0", "85", "0", "0", "35", "0", "0", "0", "21", "0", "0", "0", "0", "0", "76", "0", "0", "0", "0", "38", "0", "7", "0", "0", "69", "0", "0", "1803", "0", "0", "0", "24", "2930", "41", "71", "0", "29", "11", "0" ]
+, [ 57, "A193E4BC-6BE8-49DB-8444-A57F54313F5F", 57, 1369924913, "400368", 1369924913, "400368", "{\n}", "57", "Archer Heights", "SPANISH (29.7%)", "0", "72", "0", "0", "12", "0", "0", "0", "0", "0", "0", "0", "0", "0", "12", "0", "0", "0", "0", "0", "0", "0", "0", "0", "35", "0", "0", "804", "0", "0", "0", "0", "3409", "0", "0", "0", "6", "0", "0" ]
+, [ 58, "B71054B6-39F2-4761-851C-13D897F01986", 58, 1369924913, "400368", 1369924913, "400368", "{\n}", "58", "Brighton Park", "SPANISH (40.2%)", "0", "28", "0", "0", "1454", "0", "0", "9", "14", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "97", "0", "10", "0", "0", "11", "326", "0", "15", "0", "0", "16124", "40", "0", "0", "0", "0", "0" ]
+, [ 59, "C8453CC3-9000-4F02-8DE8-76330B1C6196", 59, 1369924913, "400368", 1369924913, "400368", "{\n}", "59", "McKinley Park", "SPANISH (23%)", "0", "0", "0", "0", "1705", "0", "0", "0", "0", "0", "12", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "7", "0", "0", "22", "0", "0", "0", "14", "3392", "0", "0", "0", "0", "0", "0" ]
+, [ 60, "56536DAB-1255-4E59-B01C-F1DEE4161EC3", 60, 1369924913, "400368", 1369924913, "400368", "{\n}", "60", "Bridgeport", "CHINESE (21.4%)", "11", "103", "0", "0", "6561", "0", "23", "0", "0", "0", "15", "0", "0", "0", "169", "0", "47", "0", "0", "8", "0", "64", "0", "0", "34", "0", "0", "3", "0", "6", "0", "32", "2375", "52", "18", "0", "0", "32", "0" ]
+, [ 61, "FFBDA44D-1CD4-43CC-B969-EF53F9EE83AC", 61, 1369924913, "400368", 1369924913, "400368", "{\n}", "61", "New City", "SPANISH (27.4%)", "0", "20", "0", "0", "174", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "3", "0", "0", "0", "0", "0", "107", "0", "9", "0", "0", "10360", "0", "0", "23", "0", "0", "0" ]
+, [ 62, "338CBC40-72A2-4E91-B0BC-C2BB152A9BFD", 62, 1369924913, "400368", 1369924913, "400368", "{\n}", "62", "West Elsdon", "SPANISH (32.2%)", "0", "23", "0", "0", "45", "0", "16", "0", "0", "0", "0", "0", "0", "0", "0", "0", "17", "0", "0", "0", "0", "3", "0", "9", "7", "0", "0", "538", "0", "0", "0", "0", "5386", "38", "0", "0", "0", "0", "0" ]
+, [ 63, "FAE090BC-6D89-4943-AEC5-243924D76273", 63, 1369924913, "400368", 1369924913, "400368", "{\n}", "63", "Gage Park", "SPANISH (45.1%)", "0", "3", "0", "0", "43", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "32", "0", "0", "18", "0", "0", "98", "0", "0", "0", "0", "15746", "7", "36", "0", "0", "73", "0" ]
+, [ 64, "7332C7E1-205B-4F94-B51F-E27D0E4A1C2F", 64, 1369924913, "400368", 1369924913, "400368", "{\n}", "64", "Clearing", "SPANISH (12.9%)", "0", "18", "0", "0", "0", "0", "0", "0", "0", "0", "0", "11", "0", "0", "101", "0", "0", "0", "0", "0", "0", "39", "0", "0", "41", "0", "0", "720", "0", "0", "0", "23", "2827", "0", "0", "0", "0", "0", "0" ]
+, [ 65, "ED06B148-F598-4BB7-B70F-88F9BF7269C8", 65, 1369924913, "400368", 1369924913, "400368", "{\n}", "65", "West Lawn", "SPANISH (28.2%)", "0", "28", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "7", "0", "0", "0", "0", "0", "0", "0", "247", "0", "0", "0", "0", "8445", "14", "0", "0", "20", "0", "0" ]
+, [ 66, "65FF2698-C6EA-4295-9BFB-FA0C2017579C", 66, 1369924913, "400368", 1369924913, "400368", "{\n}", "66", "Chicago Lawn", "SPANISH (18%)", "23", "93", "0", "0", "27", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "82", "0", "0", "0", "0", "143", "0", "0", "0", "0", "0", "0", "0", "9", "0", "0", "8884", "61", "0", "0", "0", "0", "0" ]
+, [ 67, "72235FE3-4E13-4801-A3C8-589A16931A26", 67, 1369924913, "400368", 1369924913, "400368", "{\n}", "67", "West Englewood", "SPANISH (0.7%)", "11", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "15", "0", "0", "0", "0", "0", "0", "14", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "232", "0", "0", "0", "0", "0", "0" ]
+, [ 68, "077BFAC7-ECD4-45BE-B2E7-C781B729C684", 68, 1369924913, "400368", 1369924913, "400368", "{\n}", "68", "Englewood", "SPANISH (0.3%)", "6", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "6", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "83", "2", "0", "0", "0", "0", "0" ]
+, [ 69, "278D16BB-D3E8-4DD3-A895-2CDF76515215", 69, 1369924913, "400368", 1369924913, "400368", "{\n}", "69", "Greater Grand Crossing", "SPANISH (0.4%)", "25", "0", "0", "0", "0", "0", "14", "0", "0", "0", "0", "0", "0", "0", "0", "30", "3", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "3", "0", "0", "0", "0", "139", "0", "0", "0", "0", "0", "0" ]
+, [ 70, "E5FB5340-61FD-4E87-A4E3-E81D9D867BD4", 70, 1369924913, "400368", 1369924913, "400368", "{\n}", "70", "Ashburn", "SPANISH (11.1%)", "22", "138", "0", "0", "10", "0", "12", "0", "0", "0", "0", "0", "0", "0", "15", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "119", "0", "0", "0", "0", "4439", "7", "0", "0", "11", "0", "0" ]
+, [ 71, "2EF20F95-5D1B-4961-9103-B093D597E897", 71, 1369924913, "400368", 1369924913, "400368", "{\n}", "71", "Auburn Gresham", "SPANISH (0.5%)", "48", "0", "0", "0", "18", "19", "11", "0", "0", "0", "0", "0", "0", "0", "0", "0", "22", "0", "0", "0", "0", "0", "0", "0", "0", "0", "103", "0", "0", "0", "0", "0", "261", "9", "0", "0", "0", "0", "0" ]
+, [ 72, "20FA6B1D-6CA6-4F8D-AAD2-0598813DF1E4", 72, 1369924913, "400368", 1369924913, "400368", "{\n}", "72", "Beverly", "SPANISH (0.8%)", "65", "0", "0", "0", "0", "0", "28", "0", "8", "0", "0", "0", "0", "0", "25", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "10", "0", "0", "0", "0", "162", "5", "0", "0", "0", "0", "0" ]
+, [ 73, "E0E18A49-7D0C-4445-98F7-70F79B6AB612", 73, 1369924913, "400368", 1369924913, "400368", "{\n}", "73", "Washington Heights", "SPANISH (0.5%)", "9", "0", "0", "0", "0", "0", "51", "0", "0", "0", "0", "0", "0", "0", "0", "18", "0", "0", "0", "0", "12", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "115", "0", "0", "0", "0", "0", "0" ]
+, [ 74, "5DA79C2E-9CE0-47B1-9386-2365AFECF4CB", 74, 1369924913, "400368", 1369924913, "400368", "{\n}", "74", "Mount Greenwood", "SPANISH (0.6%)", "0", "0", "0", "0", "47", "0", "0", "22", "11", "0", "0", "0", "0", "0", "0", "22", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "6", "0", "0", "97", "0", "0", "0", "0", "0", "0" ]
+, [ 75, "E28B9D07-07AD-4656-A2EE-DA77CDDFDBE4", 75, 1369924913, "400368", 1369924913, "400368", "{\n}", "75", "Morgan Park", "SPANISH (0.7%)", "0", "0", "0", "0", "0", "0", "31", "14", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "7", "0", "0", "0", "0", "0", "36", "0", "0", "5", "0", "145", "0", "0", "0", "0", "0", "0" ]
+, [ 76, "D2CE7226-5FED-445C-9F6F-C991DF8D3393", 76, 1369924913, "400368", 1369924913, "400368", "{\n}", "76", "O'Hare", "POLISH (12.5%)", "0", "237", "0", "0", "16", "0", "0", "0", "36", "0", "0", "86", "0", "37", "113", "11", "25", "0", "0", "98", "0", "34", "0", "0", "424", "0", "0", "1478", "0", "68", "0", "374", "433", "68", "15", "0", "33", "0", "0" ]
+, [ 77, "E7ADD32F-D1E9-4DBE-B712-E94A05344340", 77, 1369924913, "400368", 1369924913, "400368", "{\n}", "77", "Edgewater", "SPANISH (4.8%)", "661", "23", "31", "0", "429", "0", "78", "54", "19", "49", "0", "0", "0", "21", "62", "187", "181", "0", "0", "305", "195", "210", "0", "0", "19", "0", "3", "135", "0", "809", "0", "329", "2520", "181", "76", "0", "95", "293", "0" ]
+, [ 78, "FB6CBEE7-A6DC-4E56-A60F-F3C7D7058601", 78, 1369924913, "400368", 1369924913, "400368", "{\n}", "0", "Chicago", "SPANISH (11.5%)", "4662", "5819", "171", "605", "22674", "712", "2349", "1482", "1961", "1656", "263", "2034", "0", "214", "2227", "1298", "4570", "406", "12", "1708", "1736", "4684", "69", "306", "5028", "22", "306", "33531", "440", "4396", "16", "4747", "288218", "6123", "1344", "1183", "3104", "3922", "105" ]
+ ]
+}

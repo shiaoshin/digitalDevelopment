@@ -1,0 +1,331 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* STYLE */
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	display: block;
+	background: url(../img/background.jpg) no-repeat;
+	background-size: 100%;
+	width: 100vw;
+	height: 100vh;
+}
+
+.watch {
+	position: absolute;
+	width: 13.4vw;
+	height: 13.4vw;
+	top: 14.7vw;
+	left: 51.5vw;
+	-webkit-border-radius: 13.45vw;
+    border-radius: 13.45vw;
+	overflow: hidden;
+	border: solid 1px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 0px 4px 2px #444;
+    box-shadow: 0px 0px 4px 2px #444;	
+	
+	-webkit-transform: rotate(-24deg);
+    -moz-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    -o-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+	
+	-webkit-perspective: 5px;
+    -moz-perspective: 5px;
+    -ms-perspective: 5px;
+    perspective: 5px;
+	
+	-webkit-transform: rotateX(-10deg);
+	-webkit-transform: rotateZ(-24deg);
+	-webkit-transform-style: preserve-3d;
+    -moz-transform: rotateX(-10deg); 
+	-moz-transform: rotateZ(-24deg);
+    -moz-transform-style: preserve-3d;
+    -ms-transform: rotateX(-10deg); 
+	-ms-transform: rotateZ(-24deg);
+	-ms-transform-style: preserve-3d;
+    transform: rotateX(-10deg);
+	transform: rotateZ(-24deg);
+	transform-style: preserve-3d;
+}
+
+.frame {
+	position: relative;
+	width: 71vw;
+	height: 44vw;
+	margin: -5vw;
+	padding: 5vw;
+	z-index: 1;
+}
+.frameBack {
+	position: absolute;
+	background: url(../img/back_qulance.jpg) no-repeat;
+	background-size: cover;
+	width: 33vw;
+	height: 33vw;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.content {
+	position: relative;
+	display: table;
+	width: 13.5vw;
+	height: 13.5vw;
+	color: #FFF;
+	float: left;
+	/*border: solid 1px #DDD;*/
+}
+
+.wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.foot {
+	position: absolute;
+	width: 100%;
+	font-size: 50%;
+	text-align: center;
+	left: 0;
+	bottom: 12%;
+}
+
+.list {
+	position: absolute;
+	font-family: "Helvetica", Sans-serif;
+	color: #FFF;
+	width: 50vw;
+	top: 7.5%;
+	left: 11vw;/*11,6,2.6,-1.1,-3.2*/
+	font-size: 0.75vw;
+	z-index: 2;
+}
+
+body {
+	font-family: Helvetica, Sans-serif;
+	color: #666;
+	font-size: 0.75vw;
+}
+
+h1 {
+	font-size: 3vw;
+}
+
+.description {
+	position: fixed;
+	background-color: rgba(250,250,250,0.4);
+	width: 25%;
+	margin: 80px 0 0 80px;
+	padding: 20px; 
+	-webkit-box-shadow: 4px 4px 10px 0px #999;
+    box-shadow: 4px 4px 10px 0px #999;
+}
+
+/* LED Font*/
+#clock > .wrapper,
+#date > .wrapper,
+#temp > .wrapper,
+#humidity > .wrapper,
+#icon > .wrapper {
+	font-size: 3.8vw;
+}
+.digital span {
+	margin: 0 1px;
+}
+@font-face {
+	font-family: 'LED';
+	src:url('../fonts/LED.eot?-sr3ovh');
+	src:url('../fonts/LED.eot?#iefix-sr3ovh') format('embedded-opentype'),
+		url('../fonts/LED.woff?-sr3ovh') format('woff'),
+		url('../fonts/LED.ttf?-sr3ovh') format('truetype'),
+		url('../fonts/LED.svg?-sr3ovh#LED') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="led-"], [class*=" led-"] {
+	font-family: 'LED';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.led-dig_1:before {
+	content: "\e600";
+}
+.led-dig_2:before {
+	content: "\e601";
+}
+.led-dig_3:before {
+	content: "\e602";
+}
+.led-dig_4:before {
+	content: "\e603";
+}
+.led-dig_5:before {
+	content: "\e604";
+}
+.led-dig_6:before {
+	content: "\e605";
+}
+.led-dig_7:before {
+	content: "\e606";
+}
+.led-dig_8:before {
+	content: "\e607";
+}
+.led-dig_9:before {
+	content: "\e608";
+}
+.led-dig_0:before {
+	content: "\e609";
+}
+.led-dig_A:before {
+	content: "\e60a";
+}
+.led-dig_B:before {
+	content: "\e60b";
+}
+.led-dig_C:before {
+	content: "\e60c";
+}
+.led-dig_D:before {
+	content: "\e60d";
+}
+.led-dig_E:before {
+	content: "\e60e";
+}
+.led-dig_F:before {
+	content: "\e60f";
+}
+.led-dig_G:before {
+	content: "\e610";
+}
+.led-dig_H:before {
+	content: "\e611";
+}
+.led-dig_I:before {
+	content: "\e612";
+}
+.led-dig_J:before {
+	content: "\e613";
+}
+.led-dig_K:before {
+	content: "\e614";
+}
+.led-dig_L:before {
+	content: "\e615";
+}
+.led-dig_M:before {
+	content: "\e616";
+}
+.led-dig_N:before {
+	content: "\e617";
+}
+.led-dig_O:before {
+	content: "\e618";
+}
+.led-dig_P:before {
+	content: "\e619";
+}
+.led-dig_Q:before {
+	content: "\e61a";
+}
+.led-dig_R:before {
+	content: "\e61b";
+}
+.led-dig_S:before {
+	content: "\e61c";
+}
+.led-dig_T:before {
+	content: "\e61d";
+}
+.led-dig_U:before {
+	content: "\e61e";
+}
+.led-dig_V:before {
+	content: "\e61f";
+}
+.led-dig_W:before {
+	content: "\e620";
+}
+.led-dig_X:before {
+	content: "\e621";
+}
+.led-dig_Y:before {
+	content: "\e622";
+}
+.led-dig_Z:before {
+	content: "\e623";
+}
+.led-dig_underscore:before {
+	content: "\e624";
+}
+.led-dig_slash:before {
+	content: "\e625";
+}
+.led-dig_colon:before {
+	content: "\e626";
+}
+.led-dig_percentage:before {
+	content: "\e627";
+}

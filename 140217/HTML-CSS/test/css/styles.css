@@ -1,0 +1,135 @@
+
+/* =============================================================================
+   HTML5 reset
+   ========================================================================== */
+
+/*article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+
+html { font-size: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+
+body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+
+::-moz-selection { background: #5db7cd; color: #fff; text-shadow: none; }
+::selection { background: #5db7cd; color: #fff; text-shadow: none; }
+
+a {
+    text - decoration: none;
+    color: inherit
+}
+a: active,
+a: focus {
+    outline: 0
+}*/
+
+
+/* =============================================================================
+   Site styles
+   ========================================================================== */
+* {
+	padding:0;
+	margin:0;
+}
+   
+ *, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+html, body{   
+	width: 100%;
+	height: 100%;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	-moz-font-smoothing:antialiased;
+	-moz-text-size-adjust:100%;
+	-ms-font-smoothing:antialiased;
+	-ms-text-size-adjust:100%;
+	-webkit-font-smoothing:antialiased;
+	-webkit-text-size-adjust:100%;
+}
+
+.container {
+	position: absolute;
+	display:table;
+	width: 100%;
+	height: 100%;
+	background: url('../image/bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+.info {
+	display: table-cell;
+	max-width: 650px;
+	height: 100%;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+.title {
+	font-size: 55px;
+	font-weight: 100;
+}
+
+.role {
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+}
+
+.long-line {
+	width: 386px;
+	margin: 20px auto;
+	opacity: 0.3;
+}
+
+p {
+	font-size: 14px;
+	max-width: 500px;
+	margin: 0 auto;
+	font-weight: 300;
+}
+
+.short-line {
+	width: 120px;
+	margin: 20px auto;
+	opacity: 0.3;
+}
+
+.imageHolder {
+	background: url('../image/profile-erik.jpg') no-repeat center center;
+	background-size: cover;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 100px; /* Android ? 1.6, iOS 1-3.2, Safari 3-4 */
+    border-radius: 100px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	border: solid 2px white;
+	-webkit-box-shadow: 0px 0px 20px 0px #222; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+    box-shadow: 0px 0px 20px 0px #222; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+li a {
+	opacity: 0.5;
+	-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+    -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+    -o-transition: all 0.3s ease-out;  /* Opera 10.50¡V12.00 */
+    transition: all 0.3s ease-out;
+}
+li a:hover {
+	opacity: 1;
+	-webkit-transform: translate(0px,-2px);  /* Chrome, Safari 3.1+ */
+     -moz-transform: translate(0px,-2px);  /* Firefox 3.5-15 */
+      -ms-transform: translate(0px,-2px);  /* IE 9 */
+       -o-transform: translate(0px,-2px);  /* Opera 10.50-12.00 */
+          transform: translate(0px,-2px);  /* Firefox 16+, IE 10+, Opera 12.10+ */
+	
+}
